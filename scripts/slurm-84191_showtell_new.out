@@ -1,0 +1,1599 @@
+2023-04-26 02:08:31.627540: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 02:08:33.788480: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-04-26 02:08:33.789740: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2023-04-26 02:08:33.826201: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: NVIDIA GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.76GiB deviceMemoryBandwidth: 573.69GiB/s
+2023-04-26 02:08:33.826243: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 02:08:33.834337: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-04-26 02:08:33.834404: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-04-26 02:08:33.837709: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-26 02:08:33.838562: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-26 02:08:33.848136: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-04-26 02:08:33.850988: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-04-26 02:08:33.873354: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-04-26 02:08:33.874565: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-04-26 02:08:34.634880: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-04-26 02:08:34.636036: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: NVIDIA GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.76GiB deviceMemoryBandwidth: 573.69GiB/s
+2023-04-26 02:08:34.636074: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 02:08:34.636096: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-04-26 02:08:34.636104: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-04-26 02:08:34.636113: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-26 02:08:34.636122: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-26 02:08:34.636130: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-04-26 02:08:34.636138: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-04-26 02:08:34.636147: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-04-26 02:08:34.637161: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-04-26 02:08:34.637756: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 02:08:35.298446: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-04-26 02:08:35.298499: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2023-04-26 02:08:35.298506: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2023-04-26 02:08:35.301081: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10076 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 2080 Ti, pci bus id: 0000:3d:00.0, compute capability: 7.5)
+2023-04-26 02:08:35.301401: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+WARNING:tensorflow:AutoGraph could not transform <function <lambda> at 0x15548d8d3280> and will run it as-is.
+Cause: could not parse the source code of <function <lambda> at 0x15548d8d3280>: no matching AST found
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+Num GPUs Available:  1
+Load tokenizer...
+Prepare training data using a Tensorflow dataset...
+2023-04-26 02:08:35.471515: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-04-26 02:08:35.472078: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2600000000 Hz
+WARNING:tensorflow:AutoGraph could not transform <function train_step_showtell at 0x15548c051a60> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+Training...
+Start epochs...
+2023-04-26 02:08:41.550757: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+Epoch 1 Batch 0 Loss 2.6794
+Epoch 1 Batch 100 Loss 1.4781
+Epoch 1 Batch 200 Loss 1.5921
+Epoch 1 Batch 300 Loss 1.4658
+Epoch 1 Batch 400 Loss 1.2766
+Epoch 1 Loss 1.543835
+Time taken for 1 epoch 48.68 sec
+
+Epoch 2 Batch 0 Loss 1.3114
+Epoch 2 Batch 100 Loss 1.2442
+Epoch 2 Batch 200 Loss 1.2050
+Epoch 2 Batch 300 Loss 1.2609
+Epoch 2 Batch 400 Loss 1.1715
+Epoch 2 Loss 1.244016
+Time taken for 1 epoch 22.14 sec
+
+Epoch 3 Batch 0 Loss 1.1299
+Epoch 3 Batch 100 Loss 1.1169
+Epoch 3 Batch 200 Loss 1.2135
+Epoch 3 Batch 300 Loss 1.1094
+Epoch 3 Batch 400 Loss 1.0951
+Epoch 3 Loss 1.124543
+Time taken for 1 epoch 22.18 sec
+
+Epoch 4 Batch 0 Loss 1.0214
+Epoch 4 Batch 100 Loss 1.0821
+Epoch 4 Batch 200 Loss 1.0506
+Epoch 4 Batch 300 Loss 0.9968
+Epoch 4 Batch 400 Loss 1.0589
+Epoch 4 Loss 1.042841
+Time taken for 1 epoch 21.93 sec
+
+Epoch 5 Batch 0 Loss 0.9667
+Epoch 5 Batch 100 Loss 1.0014
+Epoch 5 Batch 200 Loss 0.9613
+Epoch 5 Batch 300 Loss 1.0105
+Epoch 5 Batch 400 Loss 0.9611
+Epoch 5 Loss 0.977464
+Time taken for 1 epoch 21.93 sec
+
+Epoch 6 Batch 0 Loss 0.9326
+Epoch 6 Batch 100 Loss 0.9064
+Epoch 6 Batch 200 Loss 0.9448
+Epoch 6 Batch 300 Loss 0.8851
+Epoch 6 Batch 400 Loss 0.9529
+Epoch 6 Loss 0.923656
+Time taken for 1 epoch 21.78 sec
+
+Epoch 7 Batch 0 Loss 0.8766
+Epoch 7 Batch 100 Loss 0.8766
+Epoch 7 Batch 200 Loss 0.9365
+Epoch 7 Batch 300 Loss 0.8741
+Epoch 7 Batch 400 Loss 0.8727
+Epoch 7 Loss 0.875837
+Time taken for 1 epoch 21.94 sec
+
+Epoch 8 Batch 0 Loss 0.7874
+Epoch 8 Batch 100 Loss 0.8193
+Epoch 8 Batch 200 Loss 0.8522
+Epoch 8 Batch 300 Loss 0.7896
+Epoch 8 Batch 400 Loss 0.8216
+Epoch 8 Loss 0.833975
+Time taken for 1 epoch 22.04 sec
+
+Epoch 9 Batch 0 Loss 0.8111
+Epoch 9 Batch 100 Loss 0.7833
+Epoch 9 Batch 200 Loss 0.8294
+Epoch 9 Batch 300 Loss 0.8253
+Epoch 9 Batch 400 Loss 0.8038
+Epoch 9 Loss 0.795523
+Time taken for 1 epoch 21.80 sec
+
+Epoch 10 Batch 0 Loss 0.7854
+Epoch 10 Batch 100 Loss 0.7251
+Epoch 10 Batch 200 Loss 0.7854
+Epoch 10 Batch 300 Loss 0.7350
+Epoch 10 Batch 400 Loss 0.8296
+Epoch 10 Loss 0.759676
+Time taken for 1 epoch 21.68 sec
+
+Epoch 11 Batch 0 Loss 0.7268
+Epoch 11 Batch 100 Loss 0.7886
+Epoch 11 Batch 200 Loss 0.7239
+Epoch 11 Batch 300 Loss 0.7373
+Epoch 11 Batch 400 Loss 0.7281
+Epoch 11 Loss 0.726646
+Time taken for 1 epoch 22.01 sec
+
+Epoch 12 Batch 0 Loss 0.7131
+Epoch 12 Batch 100 Loss 0.7069
+Epoch 12 Batch 200 Loss 0.7275
+Epoch 12 Batch 300 Loss 0.6607
+Epoch 12 Batch 400 Loss 0.7600
+Epoch 12 Loss 0.695409
+Time taken for 1 epoch 21.93 sec
+
+Epoch 13 Batch 0 Loss 0.6518
+Epoch 13 Batch 100 Loss 0.6948
+Epoch 13 Batch 200 Loss 0.6692
+Epoch 13 Batch 300 Loss 0.6536
+Epoch 13 Batch 400 Loss 0.6215
+Epoch 13 Loss 0.666150
+Time taken for 1 epoch 21.73 sec
+
+Epoch 14 Batch 0 Loss 0.6832
+Epoch 14 Batch 100 Loss 0.6518
+Epoch 14 Batch 200 Loss 0.6072
+Epoch 14 Batch 300 Loss 0.6814
+Epoch 14 Batch 400 Loss 0.6019
+Epoch 14 Loss 0.639008
+Time taken for 1 epoch 21.88 sec
+
+Epoch 15 Batch 0 Loss 0.6726
+Epoch 15 Batch 100 Loss 0.6704
+Epoch 15 Batch 200 Loss 0.6274
+Epoch 15 Batch 300 Loss 0.5626
+Epoch 15 Batch 400 Loss 0.5626
+Epoch 15 Loss 0.612891
+Time taken for 1 epoch 21.85 sec
+
+Epoch 16 Batch 0 Loss 0.5799
+Epoch 16 Batch 100 Loss 0.6416
+Epoch 16 Batch 200 Loss 0.5500
+Epoch 16 Batch 300 Loss 0.6170
+Epoch 16 Batch 400 Loss 0.6385
+Epoch 16 Loss 0.588262
+Time taken for 1 epoch 21.82 sec
+
+Epoch 17 Batch 0 Loss 0.5767
+Epoch 17 Batch 100 Loss 0.5633
+Epoch 17 Batch 200 Loss 0.6027
+Epoch 17 Batch 300 Loss 0.5695
+Epoch 17 Batch 400 Loss 0.5187
+Epoch 17 Loss 0.564848
+Time taken for 1 epoch 21.96 sec
+
+Epoch 18 Batch 0 Loss 0.5657
+Epoch 18 Batch 100 Loss 0.5109
+Epoch 18 Batch 200 Loss 0.5491
+Epoch 18 Batch 300 Loss 0.5554
+Epoch 18 Batch 400 Loss 0.5385
+Epoch 18 Loss 0.543602
+Time taken for 1 epoch 21.69 sec
+
+Epoch 19 Batch 0 Loss 0.5181
+Epoch 19 Batch 100 Loss 0.5281
+Epoch 19 Batch 200 Loss 0.5661
+Epoch 19 Batch 300 Loss 0.5046
+Epoch 19 Batch 400 Loss 0.5360
+Epoch 19 Loss 0.521732
+Time taken for 1 epoch 21.86 sec
+
+Epoch 20 Batch 0 Loss 0.5024
+Epoch 20 Batch 100 Loss 0.4988
+Epoch 20 Batch 200 Loss 0.5092
+Epoch 20 Batch 300 Loss 0.5120
+Epoch 20 Batch 400 Loss 0.5094
+Epoch 20 Loss 0.501413
+Time taken for 1 epoch 21.63 sec
+
+Epoch 21 Batch 0 Loss 0.5268
+Epoch 21 Batch 100 Loss 0.4723
+Epoch 21 Batch 200 Loss 0.4130
+Epoch 21 Batch 300 Loss 0.5249
+Epoch 21 Batch 400 Loss 0.4807
+Epoch 21 Loss 0.481580
+Time taken for 1 epoch 21.98 sec
+
+Epoch 22 Batch 0 Loss 0.4297
+Epoch 22 Batch 100 Loss 0.4696
+Epoch 22 Batch 200 Loss 0.5095
+Epoch 22 Batch 300 Loss 0.4701
+Epoch 22 Batch 400 Loss 0.4508
+Epoch 22 Loss 0.462920
+Time taken for 1 epoch 21.92 sec
+
+Epoch 23 Batch 0 Loss 0.4435
+Epoch 23 Batch 100 Loss 0.4515
+Epoch 23 Batch 200 Loss 0.4530
+Epoch 23 Batch 300 Loss 0.4512
+Epoch 23 Batch 400 Loss 0.4579
+Epoch 23 Loss 0.444834
+Time taken for 1 epoch 21.80 sec
+
+Epoch 24 Batch 0 Loss 0.4855
+Epoch 24 Batch 100 Loss 0.4801
+Epoch 24 Batch 200 Loss 0.4201
+Epoch 24 Batch 300 Loss 0.3980
+Epoch 24 Batch 400 Loss 0.4192
+Epoch 24 Loss 0.427251
+Time taken for 1 epoch 21.61 sec
+
+Epoch 25 Batch 0 Loss 0.4457
+Epoch 25 Batch 100 Loss 0.3895
+Epoch 25 Batch 200 Loss 0.4280
+Epoch 25 Batch 300 Loss 0.3525
+Epoch 25 Batch 400 Loss 0.3956
+Epoch 25 Loss 0.410180
+Time taken for 1 epoch 21.97 sec
+
+Epoch 26 Batch 0 Loss 0.3926
+Epoch 26 Batch 100 Loss 0.4061
+Epoch 26 Batch 200 Loss 0.4253
+Epoch 26 Batch 300 Loss 0.3697
+Epoch 26 Batch 400 Loss 0.3420
+Epoch 26 Loss 0.393837
+Time taken for 1 epoch 21.91 sec
+
+Epoch 27 Batch 0 Loss 0.3895
+Epoch 27 Batch 100 Loss 0.3483
+Epoch 27 Batch 200 Loss 0.3950
+Epoch 27 Batch 300 Loss 0.3012
+Epoch 27 Batch 400 Loss 0.3764
+Epoch 27 Loss 0.378289
+Time taken for 1 epoch 21.79 sec
+
+Epoch 28 Batch 0 Loss 0.4210
+Epoch 28 Batch 100 Loss 0.3407
+Epoch 28 Batch 200 Loss 0.3624
+Epoch 28 Batch 300 Loss 0.3638
+Epoch 28 Batch 400 Loss 0.3271
+Epoch 28 Loss 0.362946
+Time taken for 1 epoch 21.82 sec
+
+Epoch 29 Batch 0 Loss 0.3315
+Epoch 29 Batch 100 Loss 0.3313
+Epoch 29 Batch 200 Loss 0.3361
+Epoch 29 Batch 300 Loss 0.3369
+Epoch 29 Batch 400 Loss 0.3717
+Epoch 29 Loss 0.348071
+Time taken for 1 epoch 21.99 sec
+
+Epoch 30 Batch 0 Loss 0.3486
+Epoch 30 Batch 100 Loss 0.3502
+Epoch 30 Batch 200 Loss 0.3260
+Epoch 30 Batch 300 Loss 0.3131
+Epoch 30 Batch 400 Loss 0.3300
+Epoch 30 Loss 0.334327
+Time taken for 1 epoch 21.88 sec
+
+Epoch 31 Batch 0 Loss 0.3048
+Epoch 31 Batch 100 Loss 0.3231
+Epoch 31 Batch 200 Loss 0.3352
+Epoch 31 Batch 300 Loss 0.3242
+Epoch 31 Batch 400 Loss 0.2772
+Epoch 31 Loss 0.320524
+Time taken for 1 epoch 21.83 sec
+
+Epoch 32 Batch 0 Loss 0.3248
+Epoch 32 Batch 100 Loss 0.3005
+Epoch 32 Batch 200 Loss 0.3202
+Epoch 32 Batch 300 Loss 0.3008
+Epoch 32 Batch 400 Loss 0.3070
+Epoch 32 Loss 0.306881
+Time taken for 1 epoch 21.81 sec
+
+Epoch 33 Batch 0 Loss 0.2836
+Epoch 33 Batch 100 Loss 0.2974
+Epoch 33 Batch 200 Loss 0.2835
+Epoch 33 Batch 300 Loss 0.2564
+Epoch 33 Batch 400 Loss 0.2788
+Epoch 33 Loss 0.293960
+Time taken for 1 epoch 22.06 sec
+
+Epoch 34 Batch 0 Loss 0.3004
+Epoch 34 Batch 100 Loss 0.3060
+Epoch 34 Batch 200 Loss 0.2470
+Epoch 34 Batch 300 Loss 0.2699
+Epoch 34 Batch 400 Loss 0.2701
+Epoch 34 Loss 0.281746
+Time taken for 1 epoch 22.00 sec
+
+Epoch 35 Batch 0 Loss 0.2664
+Epoch 35 Batch 100 Loss 0.2792
+Epoch 35 Batch 200 Loss 0.2520
+Epoch 35 Batch 300 Loss 0.2658
+Epoch 35 Batch 400 Loss 0.2706
+Epoch 35 Loss 0.269785
+Time taken for 1 epoch 21.45 sec
+
+Epoch 36 Batch 0 Loss 0.2494
+Epoch 36 Batch 100 Loss 0.2509
+Epoch 36 Batch 200 Loss 0.2657
+Epoch 36 Batch 300 Loss 0.2625
+Epoch 36 Batch 400 Loss 0.2590
+Epoch 36 Loss 0.259077
+Time taken for 1 epoch 21.92 sec
+
+Epoch 37 Batch 0 Loss 0.2859
+Epoch 37 Batch 100 Loss 0.2352
+Epoch 37 Batch 200 Loss 0.2780
+Epoch 37 Batch 300 Loss 0.2525
+Epoch 37 Batch 400 Loss 0.2368
+Epoch 37 Loss 0.248115
+Time taken for 1 epoch 21.80 sec
+
+Epoch 38 Batch 0 Loss 0.2964
+Epoch 38 Batch 100 Loss 0.2496
+Epoch 38 Batch 200 Loss 0.2442
+Epoch 38 Batch 300 Loss 0.2309
+Epoch 38 Batch 400 Loss 0.2032
+Epoch 38 Loss 0.237315
+Time taken for 1 epoch 21.80 sec
+
+Epoch 39 Batch 0 Loss 0.2889
+Epoch 39 Batch 100 Loss 0.2352
+Epoch 39 Batch 200 Loss 0.2408
+Epoch 39 Batch 300 Loss 0.2075
+Epoch 39 Batch 400 Loss 0.2175
+Epoch 39 Loss 0.227681
+Time taken for 1 epoch 21.80 sec
+
+Epoch 40 Batch 0 Loss 0.2541
+Epoch 40 Batch 100 Loss 0.2465
+Epoch 40 Batch 200 Loss 0.2264
+Epoch 40 Batch 300 Loss 0.2560
+Epoch 40 Batch 400 Loss 0.2025
+Epoch 40 Loss 0.218440
+Time taken for 1 epoch 21.85 sec
+
+2023-04-26 02:23:38.576980: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 02:23:41.148641: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-04-26 02:23:41.149670: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2023-04-26 02:23:41.187436: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: NVIDIA GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.76GiB deviceMemoryBandwidth: 573.69GiB/s
+2023-04-26 02:23:41.187481: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 02:23:41.190253: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-04-26 02:23:41.190312: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-04-26 02:23:41.192407: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-26 02:23:41.193086: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-26 02:23:41.195383: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-04-26 02:23:41.196812: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-04-26 02:23:41.201309: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-04-26 02:23:41.202474: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-04-26 02:23:44.995828: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-04-26 02:23:44.997411: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: NVIDIA GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.76GiB deviceMemoryBandwidth: 573.69GiB/s
+2023-04-26 02:23:44.997462: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 02:23:44.997496: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-04-26 02:23:44.997520: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-04-26 02:23:44.997538: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-26 02:23:44.997554: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-26 02:23:44.997565: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-04-26 02:23:44.997583: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-04-26 02:23:44.997601: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-04-26 02:23:44.998622: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-04-26 02:23:44.998652: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 02:23:45.609412: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-04-26 02:23:45.609457: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2023-04-26 02:23:45.609464: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2023-04-26 02:23:45.611480: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10076 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 2080 Ti, pci bus id: 0000:3d:00.0, compute capability: 7.5)
+2023-04-26 02:23:45.612109: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-04-26 02:23:45.932619: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-04-26 02:23:45.933060: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2600000000 Hz
+WARNING:tensorflow:AutoGraph could not transform <function train_step_showtell at 0x15548a915c10> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+Num GPUs Available:  1
+Load tokenizer...
+Prepare training data using a Tensorflow dataset...
+Training...
+Start epochs...
+2023-04-26 02:23:56.556690: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+Epoch 1 Batch 0 Loss 1.5417
+Epoch 1 Batch 100 Loss 0.9219
+Epoch 1 Batch 200 Loss 0.8733
+Epoch 1 Batch 300 Loss 0.8906
+Epoch 1 Batch 400 Loss 0.7407
+Epoch 1 Batch 500 Loss 0.6990
+Epoch 1 Batch 600 Loss 0.6845
+Epoch 1 Batch 700 Loss 0.7381
+Epoch 1 Batch 800 Loss 0.6853
+Epoch 1 Batch 900 Loss 0.6815
+Epoch 1 Batch 1000 Loss 0.6904
+Epoch 1 Batch 1100 Loss 0.6846
+Epoch 1 Batch 1200 Loss 0.6229
+Epoch 1 Batch 1300 Loss 0.6036
+Epoch 1 Batch 1400 Loss 0.7062
+Epoch 1 Batch 1500 Loss 0.6488
+Epoch 1 Batch 1600 Loss 0.6602
+Epoch 1 Batch 1700 Loss 0.5966
+Epoch 1 Batch 1800 Loss 0.6062
+Epoch 1 Batch 1900 Loss 0.7703
+Epoch 1 Batch 2000 Loss 0.7430
+Epoch 1 Batch 2100 Loss 0.7965
+Epoch 1 Batch 2200 Loss 0.6475
+Epoch 1 Batch 2300 Loss 0.5962
+Epoch 1 Loss 0.731643
+Time taken for 1 epoch 248.98 sec
+
+Epoch 2 Batch 0 Loss 0.5720
+Epoch 2 Batch 100 Loss 0.6230
+Epoch 2 Batch 200 Loss 0.5704
+Epoch 2 Batch 300 Loss 0.5686
+Epoch 2 Batch 400 Loss 0.5605
+Epoch 2 Batch 500 Loss 0.4962
+Epoch 2 Batch 600 Loss 0.5535
+Epoch 2 Batch 700 Loss 0.5477
+Epoch 2 Batch 800 Loss 0.5350
+Epoch 2 Batch 900 Loss 0.5569
+Epoch 2 Batch 1000 Loss 0.5411
+Epoch 2 Batch 1100 Loss 0.5142
+Epoch 2 Batch 1200 Loss 0.5060
+Epoch 2 Batch 1300 Loss 0.7604
+Epoch 2 Batch 1400 Loss 0.5867
+Epoch 2 Batch 1500 Loss 0.5384
+Epoch 2 Batch 1600 Loss 0.5739
+Epoch 2 Batch 1700 Loss 0.5650
+Epoch 2 Batch 1800 Loss 0.6060
+Epoch 2 Batch 1900 Loss 0.5895
+Epoch 2 Batch 2000 Loss 0.7332
+Epoch 2 Batch 2100 Loss 0.7012
+Epoch 2 Batch 2200 Loss 0.5433
+Epoch 2 Batch 2300 Loss 0.5004
+Epoch 2 Loss 0.586442
+Time taken for 1 epoch 233.15 sec
+
+Epoch 3 Batch 0 Loss 0.5560
+Epoch 3 Batch 100 Loss 0.5080
+Epoch 3 Batch 200 Loss 0.5450
+Epoch 3 Batch 300 Loss 0.5417
+Epoch 3 Batch 400 Loss 0.4825
+Epoch 3 Batch 500 Loss 0.4992
+Epoch 3 Batch 600 Loss 0.5428
+Epoch 3 Batch 700 Loss 0.5546
+Epoch 3 Batch 800 Loss 0.5255
+Epoch 3 Batch 900 Loss 0.4970
+Epoch 3 Batch 1000 Loss 0.4352
+Epoch 3 Batch 1100 Loss 0.4618
+Epoch 3 Batch 1200 Loss 0.4830
+Epoch 3 Batch 1300 Loss 0.6063
+Epoch 3 Batch 1400 Loss 0.6026
+Epoch 3 Batch 1500 Loss 0.5474
+Epoch 3 Batch 1600 Loss 0.5061
+Epoch 3 Batch 1700 Loss 0.6042
+Epoch 3 Batch 1800 Loss 0.4978
+Epoch 3 Batch 1900 Loss 0.5871
+Epoch 3 Batch 2000 Loss 0.5781
+Epoch 3 Batch 2100 Loss 0.5495
+Epoch 3 Batch 2200 Loss 0.5890
+Epoch 3 Batch 2300 Loss 0.5119
+Epoch 3 Loss 0.534114
+Time taken for 1 epoch 233.57 sec
+
+Epoch 4 Batch 0 Loss 0.5300
+Epoch 4 Batch 100 Loss 0.5118
+Epoch 4 Batch 200 Loss 0.5226
+Epoch 4 Batch 300 Loss 0.5525
+Epoch 4 Batch 400 Loss 0.5234
+Epoch 4 Batch 500 Loss 0.5187
+Epoch 4 Batch 600 Loss 0.4819
+Epoch 4 Batch 700 Loss 0.4161
+Epoch 4 Batch 800 Loss 0.5030
+Epoch 4 Batch 900 Loss 0.4461
+Epoch 4 Batch 1000 Loss 0.4342
+Epoch 4 Batch 1100 Loss 0.4351
+Epoch 4 Batch 1200 Loss 0.4910
+Epoch 4 Batch 1300 Loss 0.5114
+Epoch 4 Batch 1400 Loss 0.5046
+Epoch 4 Batch 1500 Loss 0.5685
+Epoch 4 Batch 1600 Loss 0.5161
+Epoch 4 Batch 1700 Loss 0.5390
+Epoch 4 Batch 1800 Loss 0.5402
+Epoch 4 Batch 1900 Loss 0.5929
+Epoch 4 Batch 2000 Loss 0.5709
+Epoch 4 Batch 2100 Loss 0.5637
+Epoch 4 Batch 2200 Loss 0.5447
+Epoch 4 Batch 2300 Loss 0.4875
+Epoch 4 Loss 0.500672
+Time taken for 1 epoch 233.29 sec
+
+Epoch 5 Batch 0 Loss 0.5497
+Epoch 5 Batch 100 Loss 0.4833
+Epoch 5 Batch 200 Loss 0.4567
+Epoch 5 Batch 300 Loss 0.4763
+Epoch 5 Batch 400 Loss 0.4497
+Epoch 5 Batch 500 Loss 0.4863
+Epoch 5 Batch 600 Loss 0.4420
+Epoch 5 Batch 700 Loss 0.4529
+Epoch 5 Batch 800 Loss 0.4895
+Epoch 5 Batch 900 Loss 0.4688
+Epoch 5 Batch 1000 Loss 0.4086
+Epoch 5 Batch 1100 Loss 0.4434
+Epoch 5 Batch 1200 Loss 0.4534
+Epoch 5 Batch 1300 Loss 0.4384
+Epoch 5 Batch 1400 Loss 0.4660
+Epoch 5 Batch 1500 Loss 0.5405
+Epoch 5 Batch 1600 Loss 0.5607
+Epoch 5 Batch 1700 Loss 0.5395
+Epoch 5 Batch 1800 Loss 0.4689
+Epoch 5 Batch 1900 Loss 0.5297
+Epoch 5 Batch 2000 Loss 0.4864
+Epoch 5 Batch 2100 Loss 0.5355
+Epoch 5 Batch 2200 Loss 0.5623
+Epoch 5 Batch 2300 Loss 0.4599
+Epoch 5 Loss 0.475134
+Time taken for 1 epoch 233.55 sec
+
+Epoch 6 Batch 0 Loss 0.5335
+Epoch 6 Batch 100 Loss 0.4298
+Epoch 6 Batch 200 Loss 0.4343
+Epoch 6 Batch 300 Loss 0.4735
+Epoch 6 Batch 400 Loss 0.4559
+Epoch 6 Batch 500 Loss 0.4556
+Epoch 6 Batch 600 Loss 0.4126
+Epoch 6 Batch 700 Loss 0.4563
+Epoch 6 Batch 800 Loss 0.4367
+Epoch 6 Batch 900 Loss 0.4472
+Epoch 6 Batch 1000 Loss 0.4675
+Epoch 6 Batch 1100 Loss 0.4001
+Epoch 6 Batch 1200 Loss 0.3940
+Epoch 6 Batch 1300 Loss 0.4281
+Epoch 6 Batch 1400 Loss 0.4910
+Epoch 6 Batch 1500 Loss 0.4494
+Epoch 6 Batch 1600 Loss 0.4692
+Epoch 6 Batch 1700 Loss 0.4666
+Epoch 6 Batch 1800 Loss 0.4893
+Epoch 6 Batch 1900 Loss 0.4625
+Epoch 6 Batch 2000 Loss 0.4791
+Epoch 6 Batch 2100 Loss 0.5245
+Epoch 6 Batch 2200 Loss 0.4598
+Epoch 6 Batch 2300 Loss 0.4929
+Epoch 6 Loss 0.453766
+Time taken for 1 epoch 233.11 sec
+
+Epoch 7 Batch 0 Loss 0.4479
+Epoch 7 Batch 100 Loss 0.4162
+Epoch 7 Batch 200 Loss 0.4655
+Epoch 7 Batch 300 Loss 0.4123
+Epoch 7 Batch 400 Loss 0.4400
+Epoch 7 Batch 500 Loss 0.3823
+Epoch 7 Batch 600 Loss 0.4450
+Epoch 7 Batch 700 Loss 0.4567
+Epoch 7 Batch 800 Loss 0.3966
+Epoch 7 Batch 900 Loss 0.3910
+Epoch 7 Batch 1000 Loss 0.4104
+Epoch 7 Batch 1100 Loss 0.4120
+Epoch 7 Batch 1200 Loss 0.3858
+Epoch 7 Batch 1300 Loss 0.4555
+Epoch 7 Batch 1400 Loss 0.4018
+Epoch 7 Batch 1500 Loss 0.4440
+Epoch 7 Batch 1600 Loss 0.4503
+Epoch 7 Batch 1700 Loss 0.4552
+Epoch 7 Batch 1800 Loss 0.4766
+Epoch 7 Batch 1900 Loss 0.4229
+Epoch 7 Batch 2000 Loss 0.4248
+Epoch 7 Batch 2100 Loss 0.4856
+Epoch 7 Batch 2200 Loss 0.5214
+Epoch 7 Batch 2300 Loss 0.4520
+Epoch 7 Loss 0.435068
+Time taken for 1 epoch 233.68 sec
+
+Epoch 8 Batch 0 Loss 0.3920
+Epoch 8 Batch 100 Loss 0.4086
+Epoch 8 Batch 200 Loss 0.4054
+Epoch 8 Batch 300 Loss 0.4122
+Epoch 8 Batch 400 Loss 0.3951
+Epoch 8 Batch 500 Loss 0.4234
+Epoch 8 Batch 600 Loss 0.4862
+Epoch 8 Batch 700 Loss 0.3112
+Epoch 8 Batch 800 Loss 0.4311
+Epoch 8 Batch 900 Loss 0.4167
+Epoch 8 Batch 1000 Loss 0.3957
+Epoch 8 Batch 1100 Loss 0.3478
+Epoch 8 Batch 1200 Loss 0.4345
+Epoch 8 Batch 1300 Loss 0.4044
+Epoch 8 Batch 1400 Loss 0.4412
+Epoch 8 Batch 1500 Loss 0.3952
+Epoch 8 Batch 1600 Loss 0.3975
+Epoch 8 Batch 1700 Loss 0.4449
+Epoch 8 Batch 1800 Loss 0.4822
+Epoch 8 Batch 1900 Loss 0.5473
+Epoch 8 Batch 2000 Loss 0.4544
+Epoch 8 Batch 2100 Loss 0.4915
+Epoch 8 Batch 2200 Loss 0.4400
+Epoch 8 Batch 2300 Loss 0.4043
+Epoch 8 Loss 0.418240
+Time taken for 1 epoch 233.21 sec
+
+Epoch 9 Batch 0 Loss 0.4249
+Epoch 9 Batch 100 Loss 0.3993
+Epoch 9 Batch 200 Loss 0.4032
+Epoch 9 Batch 300 Loss 0.4379
+Epoch 9 Batch 400 Loss 0.3980
+Epoch 9 Batch 500 Loss 0.4054
+Epoch 9 Batch 600 Loss 0.3782
+Epoch 9 Batch 700 Loss 0.4172
+Epoch 9 Batch 800 Loss 0.3639
+Epoch 9 Batch 900 Loss 0.3715
+Epoch 9 Batch 1000 Loss 0.3797
+Epoch 9 Batch 1100 Loss 0.4148
+Epoch 9 Batch 1200 Loss 0.3952
+Epoch 9 Batch 1300 Loss 0.4126
+Epoch 9 Batch 1400 Loss 0.4177
+Epoch 9 Batch 1500 Loss 0.4109
+Epoch 9 Batch 1600 Loss 0.4077
+Epoch 9 Batch 1700 Loss 0.4103
+Epoch 9 Batch 1800 Loss 0.4422
+Epoch 9 Batch 1900 Loss 0.3942
+Epoch 9 Batch 2000 Loss 0.4464
+Epoch 9 Batch 2100 Loss 0.4444
+Epoch 9 Batch 2200 Loss 0.4380
+Epoch 9 Batch 2300 Loss 0.3891
+Epoch 9 Loss 0.402962
+Time taken for 1 epoch 233.80 sec
+
+Epoch 10 Batch 0 Loss 0.4056
+Epoch 10 Batch 100 Loss 0.4414
+Epoch 10 Batch 200 Loss 0.3866
+Epoch 10 Batch 300 Loss 0.3416
+Epoch 10 Batch 400 Loss 0.3966
+Epoch 10 Batch 500 Loss 0.3245
+Epoch 10 Batch 600 Loss 0.3358
+Epoch 10 Batch 700 Loss 0.4045
+Epoch 10 Batch 800 Loss 0.3202
+Epoch 10 Batch 900 Loss 0.3902
+Epoch 10 Batch 1000 Loss 0.3656
+Epoch 10 Batch 1100 Loss 0.3666
+Epoch 10 Batch 1200 Loss 0.3730
+Epoch 10 Batch 1300 Loss 0.3873
+Epoch 10 Batch 1400 Loss 0.3894
+Epoch 10 Batch 1500 Loss 0.3986
+Epoch 10 Batch 1600 Loss 0.3944
+Epoch 10 Batch 1700 Loss 0.4318
+Epoch 10 Batch 1800 Loss 0.3835
+Epoch 10 Batch 1900 Loss 0.4375
+Epoch 10 Batch 2000 Loss 0.4519
+Epoch 10 Batch 2100 Loss 0.4423
+Epoch 10 Batch 2200 Loss 0.4084
+Epoch 10 Batch 2300 Loss 0.3628
+Epoch 10 Loss 0.389315
+Time taken for 1 epoch 233.58 sec
+
+Epoch 11 Batch 0 Loss 0.3561
+Epoch 11 Batch 100 Loss 0.3448
+Epoch 11 Batch 200 Loss 0.3667
+Epoch 11 Batch 300 Loss 0.4207
+Epoch 11 Batch 400 Loss 0.3529
+Epoch 11 Batch 500 Loss 0.3621
+Epoch 11 Batch 600 Loss 0.3552
+Epoch 11 Batch 700 Loss 0.3660
+Epoch 11 Batch 800 Loss 0.3474
+Epoch 11 Batch 900 Loss 0.3352
+Epoch 11 Batch 1000 Loss 0.3420
+Epoch 11 Batch 1100 Loss 0.3506
+Epoch 11 Batch 1200 Loss 0.3223
+Epoch 11 Batch 1300 Loss 0.3879
+Epoch 11 Batch 1400 Loss 0.3746
+Epoch 11 Batch 1500 Loss 0.3814
+Epoch 11 Batch 1600 Loss 0.3996
+Epoch 11 Batch 1700 Loss 0.3524
+Epoch 11 Batch 1800 Loss 0.3922
+Epoch 11 Batch 1900 Loss 0.3691
+Epoch 11 Batch 2000 Loss 0.4459
+Epoch 11 Batch 2100 Loss 0.4051
+Epoch 11 Batch 2200 Loss 0.3569
+Epoch 11 Batch 2300 Loss 0.3848
+Epoch 11 Loss 0.376535
+Time taken for 1 epoch 233.40 sec
+
+Epoch 12 Batch 0 Loss 0.3866
+Epoch 12 Batch 100 Loss 0.3568
+Epoch 12 Batch 200 Loss 0.3450
+Epoch 12 Batch 300 Loss 0.3620
+Epoch 12 Batch 400 Loss 0.3416
+Epoch 12 Batch 500 Loss 0.3523
+Epoch 12 Batch 600 Loss 0.3477
+Epoch 12 Batch 700 Loss 0.2930
+Epoch 12 Batch 800 Loss 0.3458
+Epoch 12 Batch 900 Loss 0.3250
+Epoch 12 Batch 1000 Loss 0.3318
+Epoch 12 Batch 1100 Loss 0.3212
+Epoch 12 Batch 1200 Loss 0.3722
+Epoch 12 Batch 1300 Loss 0.3774
+Epoch 12 Batch 1400 Loss 0.3313
+Epoch 12 Batch 1500 Loss 0.3600
+Epoch 12 Batch 1600 Loss 0.3706
+Epoch 12 Batch 1700 Loss 0.3799
+Epoch 12 Batch 1800 Loss 0.3796
+Epoch 12 Batch 1900 Loss 0.4473
+Epoch 12 Batch 2000 Loss 0.4259
+Epoch 12 Batch 2100 Loss 0.4360
+Epoch 12 Batch 2200 Loss 0.4102
+Epoch 12 Batch 2300 Loss 0.3587
+Epoch 12 Loss 0.364877
+Time taken for 1 epoch 234.02 sec
+
+Epoch 13 Batch 0 Loss 0.3686
+Epoch 13 Batch 100 Loss 0.3875
+Epoch 13 Batch 200 Loss 0.3790
+Epoch 13 Batch 300 Loss 0.3601
+Epoch 13 Batch 400 Loss 0.3536
+Epoch 13 Batch 500 Loss 0.3351
+Epoch 13 Batch 600 Loss 0.3551
+Epoch 13 Batch 700 Loss 0.3059
+Epoch 13 Batch 800 Loss 0.3193
+Epoch 13 Batch 900 Loss 0.3574
+Epoch 13 Batch 1000 Loss 0.3070
+Epoch 13 Batch 1100 Loss 0.3059
+Epoch 13 Batch 1200 Loss 0.3506
+Epoch 13 Batch 1300 Loss 0.3723
+Epoch 13 Batch 1400 Loss 0.3650
+Epoch 13 Batch 1500 Loss 0.3577
+Epoch 13 Batch 1600 Loss 0.3943
+Epoch 13 Batch 1700 Loss 0.3867
+Epoch 13 Batch 1800 Loss 0.3723
+Epoch 13 Batch 1900 Loss 0.3678
+Epoch 13 Batch 2000 Loss 0.3792
+Epoch 13 Batch 2100 Loss 0.3691
+Epoch 13 Batch 2200 Loss 0.4172
+Epoch 13 Batch 2300 Loss 0.3667
+Epoch 13 Loss 0.353957
+Time taken for 1 epoch 233.99 sec
+
+Epoch 14 Batch 0 Loss 0.3582
+Epoch 14 Batch 100 Loss 0.3092
+Epoch 14 Batch 200 Loss 0.3764
+Epoch 14 Batch 300 Loss 0.3729
+Epoch 14 Batch 400 Loss 0.3480
+Epoch 14 Batch 500 Loss 0.3137
+Epoch 14 Batch 600 Loss 0.3484
+Epoch 14 Batch 700 Loss 0.3192
+Epoch 14 Batch 800 Loss 0.3145
+Epoch 14 Batch 900 Loss 0.3115
+Epoch 14 Batch 1000 Loss 0.3192
+Epoch 14 Batch 1100 Loss 0.2971
+Epoch 14 Batch 1200 Loss 0.3023
+Epoch 14 Batch 1300 Loss 0.3395
+Epoch 14 Batch 1400 Loss 0.3212
+Epoch 14 Batch 1500 Loss 0.3602
+Epoch 14 Batch 1600 Loss 0.4143
+Epoch 14 Batch 1700 Loss 0.3127
+Epoch 14 Batch 1800 Loss 0.3868
+Epoch 14 Batch 1900 Loss 0.3483
+Epoch 14 Batch 2000 Loss 0.3679
+Epoch 14 Batch 2100 Loss 0.4177
+Epoch 14 Batch 2200 Loss 0.4039
+Epoch 14 Batch 2300 Loss 0.3365
+Epoch 14 Loss 0.344030
+Time taken for 1 epoch 233.70 sec
+
+Epoch 15 Batch 0 Loss 0.3606
+Epoch 15 Batch 100 Loss 0.3202
+Epoch 15 Batch 200 Loss 0.3825
+Epoch 15 Batch 300 Loss 0.3447
+Epoch 15 Batch 400 Loss 0.3224
+Epoch 15 Batch 500 Loss 0.2978
+Epoch 15 Batch 600 Loss 0.3340
+Epoch 15 Batch 700 Loss 0.3103
+Epoch 15 Batch 800 Loss 0.2933
+Epoch 15 Batch 900 Loss 0.2884
+Epoch 15 Batch 1000 Loss 0.3039
+Epoch 15 Batch 1100 Loss 0.3187
+Epoch 15 Batch 1200 Loss 0.3114
+Epoch 15 Batch 1300 Loss 0.3655
+Epoch 15 Batch 1400 Loss 0.3402
+Epoch 15 Batch 1500 Loss 0.3688
+Epoch 15 Batch 1600 Loss 0.3419
+Epoch 15 Batch 1700 Loss 0.3029
+Epoch 15 Batch 1800 Loss 0.3917
+Epoch 15 Batch 1900 Loss 0.3304
+Epoch 15 Batch 2000 Loss 0.3437
+Epoch 15 Batch 2100 Loss 0.3628
+Epoch 15 Batch 2200 Loss 0.3584
+Epoch 15 Batch 2300 Loss 0.3434
+Epoch 15 Loss 0.334730
+Time taken for 1 epoch 233.21 sec
+
+Epoch 16 Batch 0 Loss 0.3273
+Epoch 16 Batch 100 Loss 0.3101
+Epoch 16 Batch 200 Loss 0.3138
+Epoch 16 Batch 300 Loss 0.3562
+Epoch 16 Batch 400 Loss 0.3408
+Epoch 16 Batch 500 Loss 0.3208
+Epoch 16 Batch 600 Loss 0.3070
+Epoch 16 Batch 700 Loss 0.3334
+Epoch 16 Batch 800 Loss 0.3156
+Epoch 16 Batch 900 Loss 0.2969
+Epoch 16 Batch 1000 Loss 0.2889
+Epoch 16 Batch 1100 Loss 0.2993
+Epoch 16 Batch 1200 Loss 0.3273
+Epoch 16 Batch 1300 Loss 0.3584
+Epoch 16 Batch 1400 Loss 0.3266
+Epoch 16 Batch 1500 Loss 0.3470
+Epoch 16 Batch 1600 Loss 0.3357
+Epoch 16 Batch 1700 Loss 0.3789
+Epoch 16 Batch 1800 Loss 0.3199
+Epoch 16 Batch 1900 Loss 0.3216
+Epoch 16 Batch 2000 Loss 0.3622
+Epoch 16 Batch 2100 Loss 0.3787
+Epoch 16 Batch 2200 Loss 0.3420
+Epoch 16 Batch 2300 Loss 0.3244
+Epoch 16 Loss 0.325946
+Time taken for 1 epoch 233.49 sec
+
+Epoch 17 Batch 0 Loss 0.3425
+Epoch 17 Batch 100 Loss 0.3175
+Epoch 17 Batch 200 Loss 0.3001
+Epoch 17 Batch 300 Loss 0.3662
+Epoch 17 Batch 400 Loss 0.3365
+Epoch 17 Batch 500 Loss 0.2982
+Epoch 17 Batch 600 Loss 0.2969
+Epoch 17 Batch 700 Loss 0.3013
+Epoch 17 Batch 800 Loss 0.3579
+Epoch 17 Batch 900 Loss 0.3234
+Epoch 17 Batch 1000 Loss 0.2736
+Epoch 17 Batch 1100 Loss 0.2819
+Epoch 17 Batch 1200 Loss 0.2949
+Epoch 17 Batch 1300 Loss 0.3322
+Epoch 17 Batch 1400 Loss 0.3250
+Epoch 17 Batch 1500 Loss 0.3239
+Epoch 17 Batch 1600 Loss 0.3296
+Epoch 17 Batch 1700 Loss 0.3291
+Epoch 17 Batch 1800 Loss 0.3129
+Epoch 17 Batch 1900 Loss 0.3353
+Epoch 17 Batch 2000 Loss 0.3536
+Epoch 17 Batch 2100 Loss 0.3467
+Epoch 17 Batch 2200 Loss 0.3590
+Epoch 17 Batch 2300 Loss 0.3213
+Epoch 17 Loss 0.317679
+Time taken for 1 epoch 235.63 sec
+
+Epoch 18 Batch 0 Loss 0.3168
+Epoch 18 Batch 100 Loss 0.2763
+Epoch 18 Batch 200 Loss 0.3338
+Epoch 18 Batch 300 Loss 0.3055
+Epoch 18 Batch 400 Loss 0.2846
+Epoch 18 Batch 500 Loss 0.3040
+Epoch 18 Batch 600 Loss 0.2859
+Epoch 18 Batch 700 Loss 0.2534
+Epoch 18 Batch 800 Loss 0.2782
+Epoch 18 Batch 900 Loss 0.2670
+Epoch 18 Batch 1000 Loss 0.2745
+Epoch 18 Batch 1100 Loss 0.2804
+Epoch 18 Batch 1200 Loss 0.2703
+Epoch 18 Batch 1300 Loss 0.2875
+Epoch 18 Batch 1400 Loss 0.2992
+Epoch 18 Batch 1500 Loss 0.3329
+Epoch 18 Batch 1600 Loss 0.3218
+Epoch 18 Batch 1700 Loss 0.3078
+Epoch 18 Batch 1800 Loss 0.3226
+Epoch 18 Batch 1900 Loss 0.3467
+Epoch 18 Batch 2000 Loss 0.3051
+Epoch 18 Batch 2100 Loss 0.3226
+Epoch 18 Batch 2200 Loss 0.3399
+Epoch 18 Batch 2300 Loss 0.2967
+Epoch 18 Loss 0.309954
+Time taken for 1 epoch 233.48 sec
+
+Epoch 19 Batch 0 Loss 0.2892
+Epoch 19 Batch 100 Loss 0.2903
+Epoch 19 Batch 200 Loss 0.3161
+Epoch 19 Batch 300 Loss 0.2773
+Epoch 19 Batch 400 Loss 0.2640
+Epoch 19 Batch 500 Loss 0.2876
+Epoch 19 Batch 600 Loss 0.2744
+Epoch 19 Batch 700 Loss 0.2876
+Epoch 19 Batch 800 Loss 0.2970
+Epoch 19 Batch 900 Loss 0.2935
+Epoch 19 Batch 1000 Loss 0.2719
+Epoch 19 Batch 1100 Loss 0.3071
+Epoch 19 Batch 1200 Loss 0.2950
+Epoch 19 Batch 1300 Loss 0.3017
+Epoch 19 Batch 1400 Loss 0.3004
+Epoch 19 Batch 1500 Loss 0.3049
+Epoch 19 Batch 1600 Loss 0.3154
+Epoch 19 Batch 1700 Loss 0.3065
+Epoch 19 Batch 1800 Loss 0.3407
+Epoch 19 Batch 1900 Loss 0.3042
+Epoch 19 Batch 2000 Loss 0.3320
+Epoch 19 Batch 2100 Loss 0.3238
+Epoch 19 Batch 2200 Loss 0.3108
+Epoch 19 Batch 2300 Loss 0.2950
+Epoch 19 Loss 0.302741
+Time taken for 1 epoch 233.68 sec
+
+Epoch 20 Batch 0 Loss 0.3208
+Epoch 20 Batch 100 Loss 0.2979
+Epoch 20 Batch 200 Loss 0.2704
+Epoch 20 Batch 300 Loss 0.3267
+Epoch 20 Batch 400 Loss 0.2608
+Epoch 20 Batch 500 Loss 0.2441
+Epoch 20 Batch 600 Loss 0.2958
+Epoch 20 Batch 700 Loss 0.2502
+Epoch 20 Batch 800 Loss 0.2611
+Epoch 20 Batch 900 Loss 0.2558
+Epoch 20 Batch 1000 Loss 0.2614
+Epoch 20 Batch 1100 Loss 0.2834
+Epoch 20 Batch 1200 Loss 0.2924
+Epoch 20 Batch 1300 Loss 0.2840
+Epoch 20 Batch 1400 Loss 0.2961
+Epoch 20 Batch 1500 Loss 0.3036
+Epoch 20 Batch 1600 Loss 0.2695
+Epoch 20 Batch 1700 Loss 0.3530
+Epoch 20 Batch 1800 Loss 0.3462
+Epoch 20 Batch 1900 Loss 0.2864
+Epoch 20 Batch 2000 Loss 0.3191
+Epoch 20 Batch 2100 Loss 0.3184
+Epoch 20 Batch 2200 Loss 0.3020
+Epoch 20 Batch 2300 Loss 0.2871
+Epoch 20 Loss 0.296055
+Time taken for 1 epoch 233.83 sec
+
+Epoch 21 Batch 0 Loss 0.2913
+Epoch 21 Batch 100 Loss 0.2830
+Epoch 21 Batch 200 Loss 0.3128
+Epoch 21 Batch 300 Loss 0.3230
+Epoch 21 Batch 400 Loss 0.2950
+Epoch 21 Batch 500 Loss 0.3112
+Epoch 21 Batch 600 Loss 0.2915
+Epoch 21 Batch 700 Loss 0.3037
+Epoch 21 Batch 800 Loss 0.3049
+Epoch 21 Batch 900 Loss 0.2398
+Epoch 21 Batch 1000 Loss 0.2740
+Epoch 21 Batch 1100 Loss 0.2830
+Epoch 21 Batch 1200 Loss 0.2781
+Epoch 21 Batch 1300 Loss 0.2928
+Epoch 21 Batch 1400 Loss 0.3282
+Epoch 21 Batch 1500 Loss 0.2970
+Epoch 21 Batch 1600 Loss 0.3054
+Epoch 21 Batch 1700 Loss 0.2957
+Epoch 21 Batch 1800 Loss 0.3158
+Epoch 21 Batch 1900 Loss 0.3391
+Epoch 21 Batch 2000 Loss 0.2957
+Epoch 21 Batch 2100 Loss 0.3330
+Epoch 21 Batch 2200 Loss 0.2872
+Epoch 21 Batch 2300 Loss 0.3148
+Epoch 21 Loss 0.289518
+Time taken for 1 epoch 235.22 sec
+
+Epoch 22 Batch 0 Loss 0.3045
+Epoch 22 Batch 100 Loss 0.3195
+Epoch 22 Batch 200 Loss 0.3028
+Epoch 22 Batch 300 Loss 0.3259
+Epoch 22 Batch 400 Loss 0.2673
+Epoch 22 Batch 500 Loss 0.2641
+Epoch 22 Batch 600 Loss 0.3077
+Epoch 22 Batch 700 Loss 0.2478
+Epoch 22 Batch 800 Loss 0.2504
+Epoch 22 Batch 900 Loss 0.2449
+Epoch 22 Batch 1000 Loss 0.2518
+Epoch 22 Batch 1100 Loss 0.2432
+Epoch 22 Batch 1200 Loss 0.2702
+Epoch 22 Batch 1300 Loss 0.3043
+Epoch 22 Batch 1400 Loss 0.3103
+Epoch 22 Batch 1500 Loss 0.2898
+Epoch 22 Batch 1600 Loss 0.2562
+Epoch 22 Batch 1700 Loss 0.3332
+Epoch 22 Batch 1800 Loss 0.3138
+Epoch 22 Batch 1900 Loss 0.2757
+Epoch 22 Batch 2000 Loss 0.2794
+Epoch 22 Batch 2100 Loss 0.3237
+Epoch 22 Batch 2200 Loss 0.3128
+Epoch 22 Batch 2300 Loss 0.3167
+Epoch 22 Loss 0.283647
+Time taken for 1 epoch 233.09 sec
+
+Epoch 23 Batch 0 Loss 0.2961
+Epoch 23 Batch 100 Loss 0.3065
+Epoch 23 Batch 200 Loss 0.3296
+Epoch 23 Batch 300 Loss 0.2701
+Epoch 23 Batch 400 Loss 0.2937
+Epoch 23 Batch 500 Loss 0.2251
+Epoch 23 Batch 600 Loss 0.2805
+Epoch 23 Batch 700 Loss 0.2860
+Epoch 23 Batch 800 Loss 0.2787
+Epoch 23 Batch 900 Loss 0.2341
+Epoch 23 Batch 1000 Loss 0.2430
+Epoch 23 Batch 1100 Loss 0.2466
+Epoch 23 Batch 1200 Loss 0.2790
+Epoch 23 Batch 1300 Loss 0.2732
+Epoch 23 Batch 1400 Loss 0.2693
+Epoch 23 Batch 1500 Loss 0.3157
+Epoch 23 Batch 1600 Loss 0.3265
+Epoch 23 Batch 1700 Loss 0.3038
+Epoch 23 Batch 1800 Loss 0.2988
+Epoch 23 Batch 1900 Loss 0.2692
+Epoch 23 Batch 2000 Loss 0.2997
+Epoch 23 Batch 2100 Loss 0.2984
+Epoch 23 Batch 2200 Loss 0.3064
+Epoch 23 Batch 2300 Loss 0.3059
+Epoch 23 Loss 0.278009
+Time taken for 1 epoch 232.98 sec
+
+Epoch 24 Batch 0 Loss 0.2704
+Epoch 24 Batch 100 Loss 0.2341
+Epoch 24 Batch 200 Loss 0.2489
+Epoch 24 Batch 300 Loss 0.2822
+Epoch 24 Batch 400 Loss 0.2625
+Epoch 24 Batch 500 Loss 0.2542
+Epoch 24 Batch 600 Loss 0.2481
+Epoch 24 Batch 700 Loss 0.2627
+Epoch 24 Batch 800 Loss 0.2409
+Epoch 24 Batch 900 Loss 0.2595
+Epoch 24 Batch 1000 Loss 0.2543
+Epoch 24 Batch 1100 Loss 0.2327
+Epoch 24 Batch 1200 Loss 0.2784
+Epoch 24 Batch 1300 Loss 0.2420
+Epoch 24 Batch 1400 Loss 0.2780
+Epoch 24 Batch 1500 Loss 0.2518
+Epoch 24 Batch 1600 Loss 0.2897
+Epoch 24 Batch 1700 Loss 0.2687
+Epoch 24 Batch 1800 Loss 0.2853
+Epoch 24 Batch 1900 Loss 0.3204
+Epoch 24 Batch 2000 Loss 0.2896
+Epoch 24 Batch 2100 Loss 0.2794
+Epoch 24 Batch 2200 Loss 0.2830
+Epoch 24 Batch 2300 Loss 0.2940
+Epoch 24 Loss 0.272649
+Time taken for 1 epoch 233.61 sec
+
+Epoch 25 Batch 0 Loss 0.2611
+Epoch 25 Batch 100 Loss 0.2802
+Epoch 25 Batch 200 Loss 0.2406
+Epoch 25 Batch 300 Loss 0.2503
+Epoch 25 Batch 400 Loss 0.2766
+Epoch 25 Batch 500 Loss 0.2815
+Epoch 25 Batch 600 Loss 0.2643
+Epoch 25 Batch 700 Loss 0.2282
+Epoch 25 Batch 800 Loss 0.2525
+Epoch 25 Batch 900 Loss 0.2518
+Epoch 25 Batch 1000 Loss 0.2501
+Epoch 25 Batch 1100 Loss 0.2599
+Epoch 25 Batch 1200 Loss 0.2524
+Epoch 25 Batch 1300 Loss 0.2745
+Epoch 25 Batch 1400 Loss 0.2848
+Epoch 25 Batch 1500 Loss 0.2539
+Epoch 25 Batch 1600 Loss 0.2807
+Epoch 25 Batch 1700 Loss 0.2863
+Epoch 25 Batch 1800 Loss 0.3240
+Epoch 25 Batch 1900 Loss 0.2788
+Epoch 25 Batch 2000 Loss 0.2603
+Epoch 25 Batch 2100 Loss 0.3080
+Epoch 25 Batch 2200 Loss 0.3078
+Epoch 25 Batch 2300 Loss 0.2757
+Epoch 25 Loss 0.267771
+Time taken for 1 epoch 232.89 sec
+
+Epoch 26 Batch 0 Loss 0.2904
+Epoch 26 Batch 100 Loss 0.2597
+Epoch 26 Batch 200 Loss 0.3016
+Epoch 26 Batch 300 Loss 0.2539
+Epoch 26 Batch 400 Loss 0.2307
+Epoch 26 Batch 500 Loss 0.2646
+Epoch 26 Batch 600 Loss 0.2438
+Epoch 26 Batch 700 Loss 0.2451
+Epoch 26 Batch 800 Loss 0.2275
+Epoch 26 Batch 900 Loss 0.2384
+Epoch 26 Batch 1000 Loss 0.2420
+Epoch 26 Batch 1100 Loss 0.2491
+Epoch 26 Batch 1200 Loss 0.2660
+Epoch 26 Batch 1300 Loss 0.2507
+Epoch 26 Batch 1400 Loss 0.2734
+Epoch 26 Batch 1500 Loss 0.2676
+Epoch 26 Batch 1600 Loss 0.2577
+Epoch 26 Batch 1700 Loss 0.3162
+Epoch 26 Batch 1800 Loss 0.2917
+Epoch 26 Batch 1900 Loss 0.2750
+Epoch 26 Batch 2000 Loss 0.2990
+Epoch 26 Batch 2100 Loss 0.2906
+Epoch 26 Batch 2200 Loss 0.3063
+Epoch 26 Batch 2300 Loss 0.2805
+Epoch 26 Loss 0.262887
+Time taken for 1 epoch 235.39 sec
+
+Epoch 27 Batch 0 Loss 0.2583
+Epoch 27 Batch 100 Loss 0.2474
+Epoch 27 Batch 200 Loss 0.2391
+Epoch 27 Batch 300 Loss 0.2556
+Epoch 27 Batch 400 Loss 0.2355
+Epoch 27 Batch 500 Loss 0.2362
+Epoch 27 Batch 600 Loss 0.2294
+Epoch 27 Batch 700 Loss 0.2473
+Epoch 27 Batch 800 Loss 0.2635
+Epoch 27 Batch 900 Loss 0.2280
+Epoch 27 Batch 1000 Loss 0.2562
+Epoch 27 Batch 1100 Loss 0.2134
+Epoch 27 Batch 1200 Loss 0.2384
+Epoch 27 Batch 1300 Loss 0.2679
+Epoch 27 Batch 1400 Loss 0.2608
+Epoch 27 Batch 1500 Loss 0.3076
+Epoch 27 Batch 1600 Loss 0.2689
+Epoch 27 Batch 1700 Loss 0.2619
+Epoch 27 Batch 1800 Loss 0.2664
+Epoch 27 Batch 1900 Loss 0.2413
+Epoch 27 Batch 2000 Loss 0.2720
+Epoch 27 Batch 2100 Loss 0.2735
+Epoch 27 Batch 2200 Loss 0.2760
+Epoch 27 Batch 2300 Loss 0.2542
+Epoch 27 Loss 0.258605
+Time taken for 1 epoch 238.52 sec
+
+Epoch 28 Batch 0 Loss 0.2624
+Epoch 28 Batch 100 Loss 0.2204
+Epoch 28 Batch 200 Loss 0.2419
+Epoch 28 Batch 300 Loss 0.2519
+Epoch 28 Batch 400 Loss 0.2435
+Epoch 28 Batch 500 Loss 0.2351
+Epoch 28 Batch 600 Loss 0.2699
+Epoch 28 Batch 700 Loss 0.2457
+Epoch 28 Batch 800 Loss 0.2694
+Epoch 28 Batch 900 Loss 0.2448
+Epoch 28 Batch 1000 Loss 0.2345
+Epoch 28 Batch 1100 Loss 0.2638
+Epoch 28 Batch 1200 Loss 0.2051
+Epoch 28 Batch 1300 Loss 0.2508
+Epoch 28 Batch 1400 Loss 0.2847
+Epoch 28 Batch 1500 Loss 0.2398
+Epoch 28 Batch 1600 Loss 0.2855
+Epoch 28 Batch 1700 Loss 0.2495
+Epoch 28 Batch 1800 Loss 0.2732
+Epoch 28 Batch 1900 Loss 0.2558
+Epoch 28 Batch 2000 Loss 0.2932
+Epoch 28 Batch 2100 Loss 0.2753
+Epoch 28 Batch 2200 Loss 0.2828
+Epoch 28 Batch 2300 Loss 0.2442
+Epoch 28 Loss 0.254415
+Time taken for 1 epoch 233.48 sec
+
+Epoch 29 Batch 0 Loss 0.2373
+Epoch 29 Batch 100 Loss 0.2382
+Epoch 29 Batch 200 Loss 0.2448
+Epoch 29 Batch 300 Loss 0.2714
+Epoch 29 Batch 400 Loss 0.2472
+Epoch 29 Batch 500 Loss 0.2318
+Epoch 29 Batch 600 Loss 0.2605
+Epoch 29 Batch 700 Loss 0.2269
+Epoch 29 Batch 800 Loss 0.2418
+Epoch 29 Batch 900 Loss 0.2451
+Epoch 29 Batch 1000 Loss 0.2704
+Epoch 29 Batch 1100 Loss 0.2305
+Epoch 29 Batch 1200 Loss 0.2362
+Epoch 29 Batch 1300 Loss 0.2479
+Epoch 29 Batch 1400 Loss 0.2345
+Epoch 29 Batch 1500 Loss 0.2666
+Epoch 29 Batch 1600 Loss 0.2331
+Epoch 29 Batch 1700 Loss 0.2983
+Epoch 29 Batch 1800 Loss 0.2926
+Epoch 29 Batch 1900 Loss 0.2624
+Epoch 29 Batch 2000 Loss 0.2359
+Epoch 29 Batch 2100 Loss 0.2808
+Epoch 29 Batch 2200 Loss 0.2771
+Epoch 29 Batch 2300 Loss 0.2686
+Epoch 29 Loss 0.250567
+Time taken for 1 epoch 234.32 sec
+
+Epoch 30 Batch 0 Loss 0.2393
+Epoch 30 Batch 100 Loss 0.2815
+Epoch 30 Batch 200 Loss 0.2612
+Epoch 30 Batch 300 Loss 0.2753
+Epoch 30 Batch 400 Loss 0.2456
+Epoch 30 Batch 500 Loss 0.2268
+Epoch 30 Batch 600 Loss 0.2214
+Epoch 30 Batch 700 Loss 0.2166
+Epoch 30 Batch 800 Loss 0.2246
+Epoch 30 Batch 900 Loss 0.2107
+Epoch 30 Batch 1000 Loss 0.2109
+Epoch 30 Batch 1100 Loss 0.2280
+Epoch 30 Batch 1200 Loss 0.2381
+Epoch 30 Batch 1300 Loss 0.2628
+Epoch 30 Batch 1400 Loss 0.2388
+Epoch 30 Batch 1500 Loss 0.2430
+Epoch 30 Batch 1600 Loss 0.2659
+Epoch 30 Batch 1700 Loss 0.2592
+Epoch 30 Batch 1800 Loss 0.2659
+Epoch 30 Batch 1900 Loss 0.2315
+Epoch 30 Batch 2000 Loss 0.2621
+Epoch 30 Batch 2100 Loss 0.2534
+Epoch 30 Batch 2200 Loss 0.2643
+Epoch 30 Batch 2300 Loss 0.2473
+Epoch 30 Loss 0.246860
+Time taken for 1 epoch 236.22 sec
+
+Epoch 31 Batch 0 Loss 0.2554
+Epoch 31 Batch 100 Loss 0.2547
+Epoch 31 Batch 200 Loss 0.2650
+Epoch 31 Batch 300 Loss 0.2316
+Epoch 31 Batch 400 Loss 0.2321
+Epoch 31 Batch 500 Loss 0.2590
+Epoch 31 Batch 600 Loss 0.2269
+Epoch 31 Batch 700 Loss 0.2240
+Epoch 31 Batch 800 Loss 0.2262
+Epoch 31 Batch 900 Loss 0.2290
+Epoch 31 Batch 1000 Loss 0.2305
+Epoch 31 Batch 1100 Loss 0.2159
+Epoch 31 Batch 1200 Loss 0.2009
+Epoch 31 Batch 1300 Loss 0.2493
+Epoch 31 Batch 1400 Loss 0.2840
+Epoch 31 Batch 1500 Loss 0.2438
+Epoch 31 Batch 1600 Loss 0.2497
+Epoch 31 Batch 1700 Loss 0.2728
+Epoch 31 Batch 1800 Loss 0.2719
+Epoch 31 Batch 1900 Loss 0.2548
+Epoch 31 Batch 2000 Loss 0.2650
+Epoch 31 Batch 2100 Loss 0.2546
+Epoch 31 Batch 2200 Loss 0.2779
+Epoch 31 Batch 2300 Loss 0.2435
+Epoch 31 Loss 0.243185
+Time taken for 1 epoch 233.89 sec
+
+Epoch 32 Batch 0 Loss 0.2267
+Epoch 32 Batch 100 Loss 0.2129
+Epoch 32 Batch 200 Loss 0.2845
+Epoch 32 Batch 300 Loss 0.2420
+Epoch 32 Batch 400 Loss 0.2321
+Epoch 32 Batch 500 Loss 0.2307
+Epoch 32 Batch 600 Loss 0.2226
+Epoch 32 Batch 700 Loss 0.2105
+Epoch 32 Batch 800 Loss 0.2534
+Epoch 32 Batch 900 Loss 0.2215
+Epoch 32 Batch 1000 Loss 0.2223
+Epoch 32 Batch 1100 Loss 0.2243
+Epoch 32 Batch 1200 Loss 0.1963
+Epoch 32 Batch 1300 Loss 0.2500
+Epoch 32 Batch 1400 Loss 0.2581
+Epoch 32 Batch 1500 Loss 0.2421
+Epoch 32 Batch 1600 Loss 0.2508
+Epoch 32 Batch 1700 Loss 0.2618
+Epoch 32 Batch 1800 Loss 0.2612
+Epoch 32 Batch 1900 Loss 0.2095
+Epoch 32 Batch 2000 Loss 0.2268
+Epoch 32 Batch 2100 Loss 0.2568
+Epoch 32 Batch 2200 Loss 0.2458
+Epoch 32 Batch 2300 Loss 0.2575
+Epoch 32 Loss 0.240035
+Time taken for 1 epoch 234.40 sec
+
+Epoch 33 Batch 0 Loss 0.2539
+Epoch 33 Batch 100 Loss 0.2012
+Epoch 33 Batch 200 Loss 0.2360
+Epoch 33 Batch 300 Loss 0.2129
+Epoch 33 Batch 400 Loss 0.2356
+Epoch 33 Batch 500 Loss 0.2434
+Epoch 33 Batch 600 Loss 0.2176
+Epoch 33 Batch 700 Loss 0.2044
+Epoch 33 Batch 800 Loss 0.2411
+Epoch 33 Batch 900 Loss 0.2140
+Epoch 33 Batch 1000 Loss 0.2208
+Epoch 33 Batch 1100 Loss 0.2137
+Epoch 33 Batch 1200 Loss 0.1988
+Epoch 33 Batch 1300 Loss 0.2065
+Epoch 33 Batch 1400 Loss 0.2437
+Epoch 33 Batch 1500 Loss 0.2628
+Epoch 33 Batch 1600 Loss 0.2270
+Epoch 33 Batch 1700 Loss 0.3025
+Epoch 33 Batch 1800 Loss 0.2756
+Epoch 33 Batch 1900 Loss 0.2464
+Epoch 33 Batch 2000 Loss 0.2680
+Epoch 33 Batch 2100 Loss 0.2241
+Epoch 33 Batch 2200 Loss 0.2988
+Epoch 33 Batch 2300 Loss 0.2303
+Epoch 33 Loss 0.236991
+Time taken for 1 epoch 233.63 sec
+
+Epoch 34 Batch 0 Loss 0.2401
+Epoch 34 Batch 100 Loss 0.2398
+Epoch 34 Batch 200 Loss 0.2189
+Epoch 34 Batch 300 Loss 0.2219
+Epoch 34 Batch 400 Loss 0.2401
+Epoch 34 Batch 500 Loss 0.2088
+Epoch 34 Batch 600 Loss 0.2370
+Epoch 34 Batch 700 Loss 0.2486
+Epoch 34 Batch 800 Loss 0.2191
+Epoch 34 Batch 900 Loss 0.2248
+Epoch 34 Batch 1000 Loss 0.2120
+Epoch 34 Batch 1100 Loss 0.2039
+Epoch 34 Batch 1200 Loss 0.1875
+Epoch 34 Batch 1300 Loss 0.2365
+Epoch 34 Batch 1400 Loss 0.2438
+Epoch 34 Batch 1500 Loss 0.2241
+Epoch 34 Batch 1600 Loss 0.2763
+Epoch 34 Batch 1700 Loss 0.2567
+Epoch 34 Batch 1800 Loss 0.2864
+Epoch 34 Batch 1900 Loss 0.2300
+Epoch 34 Batch 2000 Loss 0.2281
+Epoch 34 Batch 2100 Loss 0.2351
+Epoch 34 Batch 2200 Loss 0.2830
+Epoch 34 Batch 2300 Loss 0.2221
+Epoch 34 Loss 0.233887
+Time taken for 1 epoch 236.74 sec
+
+Epoch 35 Batch 0 Loss 0.2420
+Epoch 35 Batch 100 Loss 0.2315
+Epoch 35 Batch 200 Loss 0.2128
+Epoch 35 Batch 300 Loss 0.2221
+Epoch 35 Batch 400 Loss 0.2143
+Epoch 35 Batch 500 Loss 0.2342
+Epoch 35 Batch 600 Loss 0.2207
+Epoch 35 Batch 700 Loss 0.2170
+Epoch 35 Batch 800 Loss 0.2328
+Epoch 35 Batch 900 Loss 0.2267
+Epoch 35 Batch 1000 Loss 0.2330
+Epoch 35 Batch 1100 Loss 0.2257
+Epoch 35 Batch 1200 Loss 0.2310
+Epoch 35 Batch 1300 Loss 0.2111
+Epoch 35 Batch 1400 Loss 0.2369
+Epoch 35 Batch 1500 Loss 0.2510
+Epoch 35 Batch 1600 Loss 0.2328
+Epoch 35 Batch 1700 Loss 0.2424
+Epoch 35 Batch 1800 Loss 0.2561
+Epoch 35 Batch 1900 Loss 0.2713
+Epoch 35 Batch 2000 Loss 0.2565
+Epoch 35 Batch 2100 Loss 0.2427
+Epoch 35 Batch 2200 Loss 0.2750
+Epoch 35 Batch 2300 Loss 0.2287
+Epoch 35 Loss 0.231099
+Time taken for 1 epoch 233.71 sec
+
+Epoch 36 Batch 0 Loss 0.2650
+Epoch 36 Batch 100 Loss 0.2014
+Epoch 36 Batch 200 Loss 0.2001
+Epoch 36 Batch 300 Loss 0.2273
+Epoch 36 Batch 400 Loss 0.1952
+Epoch 36 Batch 500 Loss 0.2120
+Epoch 36 Batch 600 Loss 0.2244
+Epoch 36 Batch 700 Loss 0.2197
+Epoch 36 Batch 800 Loss 0.2187
+Epoch 36 Batch 900 Loss 0.2133
+Epoch 36 Batch 1000 Loss 0.1963
+Epoch 36 Batch 1100 Loss 0.2274
+Epoch 36 Batch 1200 Loss 0.2259
+Epoch 36 Batch 1300 Loss 0.2314
+Epoch 36 Batch 1400 Loss 0.2633
+Epoch 36 Batch 1500 Loss 0.2321
+Epoch 36 Batch 1600 Loss 0.2646
+Epoch 36 Batch 1700 Loss 0.2423
+Epoch 36 Batch 1800 Loss 0.2735
+Epoch 36 Batch 1900 Loss 0.2302
+Epoch 36 Batch 2000 Loss 0.2629
+Epoch 36 Batch 2100 Loss 0.2495
+Epoch 36 Batch 2200 Loss 0.2610
+Epoch 36 Batch 2300 Loss 0.2343
+Epoch 36 Loss 0.228387
+Time taken for 1 epoch 233.97 sec
+
+Epoch 37 Batch 0 Loss 0.2091
+Epoch 37 Batch 100 Loss 0.2018
+Epoch 37 Batch 200 Loss 0.2477
+Epoch 37 Batch 300 Loss 0.2375
+Epoch 37 Batch 400 Loss 0.2160
+Epoch 37 Batch 500 Loss 0.2332
+Epoch 37 Batch 600 Loss 0.2157
+Epoch 37 Batch 700 Loss 0.2191
+Epoch 37 Batch 800 Loss 0.1979
+Epoch 37 Batch 900 Loss 0.1942
+Epoch 37 Batch 1000 Loss 0.1889
+Epoch 37 Batch 1100 Loss 0.1980
+Epoch 37 Batch 1200 Loss 0.2014
+Epoch 37 Batch 1300 Loss 0.2075
+Epoch 37 Batch 1400 Loss 0.2375
+Epoch 37 Batch 1500 Loss 0.2175
+Epoch 37 Batch 1600 Loss 0.2323
+Epoch 37 Batch 1700 Loss 0.2134
+Epoch 37 Batch 1800 Loss 0.2199
+Epoch 37 Batch 1900 Loss 0.2139
+Epoch 37 Batch 2000 Loss 0.2704
+Epoch 37 Batch 2100 Loss 0.2467
+Epoch 37 Batch 2200 Loss 0.2299
+Epoch 37 Batch 2300 Loss 0.2128
+Epoch 37 Loss 0.226022
+Time taken for 1 epoch 234.07 sec
+
+Epoch 38 Batch 0 Loss 0.2231
+Epoch 38 Batch 100 Loss 0.1967
+Epoch 38 Batch 200 Loss 0.2221
+Epoch 38 Batch 300 Loss 0.2129
+Epoch 38 Batch 400 Loss 0.2267
+Epoch 38 Batch 500 Loss 0.2180
+Epoch 38 Batch 600 Loss 0.2125
+Epoch 38 Batch 700 Loss 0.2262
+Epoch 38 Batch 800 Loss 0.2003
+Epoch 38 Batch 900 Loss 0.2166
+Epoch 38 Batch 1000 Loss 0.2084
+Epoch 38 Batch 1100 Loss 0.2003
+Epoch 38 Batch 1200 Loss 0.2168
+Epoch 38 Batch 1300 Loss 0.2384
+Epoch 38 Batch 1400 Loss 0.2526
+Epoch 38 Batch 1500 Loss 0.2148
+Epoch 38 Batch 1600 Loss 0.2377
+Epoch 38 Batch 1700 Loss 0.2321
+Epoch 38 Batch 1800 Loss 0.2859
+Epoch 38 Batch 1900 Loss 0.2340
+Epoch 38 Batch 2000 Loss 0.2263
+Epoch 38 Batch 2100 Loss 0.2501
+Epoch 38 Batch 2200 Loss 0.2514
+Epoch 38 Batch 2300 Loss 0.2297
+Epoch 38 Loss 0.223601
+Time taken for 1 epoch 233.97 sec
+
+Epoch 39 Batch 0 Loss 0.2311
+Epoch 39 Batch 100 Loss 0.2021
+Epoch 39 Batch 200 Loss 0.1908
+Epoch 39 Batch 300 Loss 0.2317
+Epoch 39 Batch 400 Loss 0.2334
+Epoch 39 Batch 500 Loss 0.1975
+Epoch 39 Batch 600 Loss 0.2195
+Epoch 39 Batch 700 Loss 0.2226
+Epoch 39 Batch 800 Loss 0.2306
+Epoch 39 Batch 900 Loss 0.2123
+Epoch 39 Batch 1000 Loss 0.2101
+Epoch 39 Batch 1100 Loss 0.2096
+Epoch 39 Batch 1200 Loss 0.2109
+Epoch 39 Batch 1300 Loss 0.1987
+Epoch 39 Batch 1400 Loss 0.2428
+Epoch 39 Batch 1500 Loss 0.2154
+Epoch 39 Batch 1600 Loss 0.2434
+Epoch 39 Batch 1700 Loss 0.2059
+Epoch 39 Batch 1800 Loss 0.2246
+Epoch 39 Batch 1900 Loss 0.2383
+Epoch 39 Batch 2000 Loss 0.2402
+Epoch 39 Batch 2100 Loss 0.2518
+Epoch 39 Batch 2200 Loss 0.2554
+Epoch 39 Batch 2300 Loss 0.2212
+Epoch 39 Loss 0.221365
+Time taken for 1 epoch 233.81 sec
+
+Epoch 40 Batch 0 Loss 0.2363
+Epoch 40 Batch 100 Loss 0.1968
+Epoch 40 Batch 200 Loss 0.2251
+Epoch 40 Batch 300 Loss 0.2103
+Epoch 40 Batch 400 Loss 0.2282
+Epoch 40 Batch 500 Loss 0.2206
+Epoch 40 Batch 600 Loss 0.2269
+Epoch 40 Batch 700 Loss 0.2242
+Epoch 40 Batch 800 Loss 0.2179
+Epoch 40 Batch 900 Loss 0.2136
+Epoch 40 Batch 1000 Loss 0.1911
+Epoch 40 Batch 1100 Loss 0.1992
+Epoch 40 Batch 1200 Loss 0.1991
+Epoch 40 Batch 1300 Loss 0.2162
+Epoch 40 Batch 1400 Loss 0.2200
+Epoch 40 Batch 1500 Loss 0.2067
+Epoch 40 Batch 1600 Loss 0.2258
+Epoch 40 Batch 1700 Loss 0.2315
+Epoch 40 Batch 1800 Loss 0.2422
+Epoch 40 Batch 1900 Loss 0.2325
+Epoch 40 Batch 2000 Loss 0.2099
+Epoch 40 Batch 2100 Loss 0.2343
+Epoch 40 Batch 2200 Loss 0.2671
+Epoch 40 Batch 2300 Loss 0.2184
+Epoch 40 Loss 0.219013
+Time taken for 1 epoch 234.10 sec
+
+2023-04-26 05:00:04.319951: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 05:00:08.021644: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-04-26 05:00:08.023085: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2023-04-26 05:00:08.061624: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: NVIDIA GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.76GiB deviceMemoryBandwidth: 573.69GiB/s
+2023-04-26 05:00:08.061681: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 05:00:08.064686: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-04-26 05:00:08.064754: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-04-26 05:00:08.066994: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-26 05:00:08.067846: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-26 05:00:08.070344: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-04-26 05:00:08.071936: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-04-26 05:00:08.076677: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-04-26 05:00:08.077913: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-04-26 05:00:08.225912: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-04-26 05:00:08.226978: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: NVIDIA GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.76GiB deviceMemoryBandwidth: 573.69GiB/s
+2023-04-26 05:00:08.227017: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 05:00:08.227052: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-04-26 05:00:08.227062: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-04-26 05:00:08.227072: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-26 05:00:08.227082: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-26 05:00:08.227092: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-04-26 05:00:08.227101: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-04-26 05:00:08.227111: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-04-26 05:00:08.228145: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-04-26 05:00:08.228175: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 05:00:08.868539: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-04-26 05:00:08.868760: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2023-04-26 05:00:08.868769: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2023-04-26 05:00:08.870830: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10076 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 2080 Ti, pci bus id: 0000:3d:00.0, compute capability: 7.5)
+2023-04-26 05:00:08.871113: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-04-26 05:00:09.079986: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-04-26 05:00:09.091430: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2600000000 Hz
+2023-04-26 05:00:09.279745: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+Num GPUs Available:  1
+Load tokenizer...
+Prepare test data...
+Load model...
+Start evaluating...
+Traceback (most recent call last):
+  File "/mntnfs/med_data5/zhangzhihan/ST456/group4-codes/evaluate.py", line 293, in <module>
+    predictions_id = evaluate_step_showtell(img_tensor, target.shape[0], max_caption_words)
+  File "/mntnfs/med_data5/zhangzhihan/ST456/group4-codes/evaluate.py", line 157, in evaluate_step_showtell
+    predictions, hidden = decoder(dec_input, features, hidden)
+  File "/mntnfs/med_data5/zhangzhihan/anaconda/envs/graph/lib/python3.9/site-packages/tensorflow/python/keras/engine/base_layer.py", line 1012, in __call__
+    outputs = call_fn(inputs, *args, **kwargs)
+TypeError: call() missing 1 required positional argument: 'batch_size'
+2023-04-26 05:00:10.798733: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 05:00:13.238482: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-04-26 05:00:13.239611: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2023-04-26 05:00:13.284334: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: NVIDIA GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.76GiB deviceMemoryBandwidth: 573.69GiB/s
+2023-04-26 05:00:13.284387: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 05:00:13.286460: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-04-26 05:00:13.286535: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-04-26 05:00:13.288276: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-26 05:00:13.288631: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-26 05:00:13.290622: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-04-26 05:00:13.291701: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-04-26 05:00:13.295969: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-04-26 05:00:13.297213: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-04-26 05:00:13.472356: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-04-26 05:00:13.474052: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: NVIDIA GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.76GiB deviceMemoryBandwidth: 573.69GiB/s
+2023-04-26 05:00:13.474098: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 05:00:13.474134: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-04-26 05:00:13.474151: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-04-26 05:00:13.474162: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-04-26 05:00:13.474172: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-04-26 05:00:13.474182: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-04-26 05:00:13.474192: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-04-26 05:00:13.474202: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-04-26 05:00:13.475711: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-04-26 05:00:13.475745: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-04-26 05:00:14.130128: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-04-26 05:00:14.130175: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2023-04-26 05:00:14.130182: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2023-04-26 05:00:14.131969: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10076 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 2080 Ti, pci bus id: 0000:3d:00.0, compute capability: 7.5)
+2023-04-26 05:00:14.132294: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-04-26 05:00:14.314894: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-04-26 05:00:14.315297: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2600000000 Hz
+2023-04-26 05:00:14.427195: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+Num GPUs Available:  1
+Load tokenizer...
+Prepare test data...
+Load model...
+Start evaluating...
+Traceback (most recent call last):
+  File "/mntnfs/med_data5/zhangzhihan/ST456/group4-codes/evaluate.py", line 293, in <module>
+    predictions_id = evaluate_step_showtell(img_tensor, target.shape[0], max_caption_words)
+  File "/mntnfs/med_data5/zhangzhihan/ST456/group4-codes/evaluate.py", line 157, in evaluate_step_showtell
+    predictions, hidden = decoder(dec_input, features, hidden)
+  File "/mntnfs/med_data5/zhangzhihan/anaconda/envs/graph/lib/python3.9/site-packages/tensorflow/python/keras/engine/base_layer.py", line 1012, in __call__
+    outputs = call_fn(inputs, *args, **kwargs)
+TypeError: call() missing 1 required positional argument: 'batch_size'

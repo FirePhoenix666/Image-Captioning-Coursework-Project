@@ -1,0 +1,1079 @@
+Epoch 1 Batch 0 Loss 1.3884
+Epoch 1 Batch 100 Loss 0.8860
+Epoch 1 Batch 200 Loss 0.8587
+Epoch 1 Batch 300 Loss 0.9403
+Epoch 1 Batch 400 Loss 0.8299
+Epoch 1 Batch 500 Loss 0.8853
+Epoch 1 Batch 600 Loss 0.8366
+Epoch 1 Batch 700 Loss 0.7773
+Epoch 1 Batch 800 Loss 0.7219
+Epoch 1 Batch 900 Loss 0.7137
+Epoch 1 Batch 1000 Loss 0.7549
+Epoch 1 Batch 1100 Loss 0.6322
+Epoch 1 Batch 1200 Loss 0.7708
+Epoch 1 Batch 1300 Loss 0.6900
+Epoch 1 Batch 1400 Loss 0.6708
+Epoch 1 Batch 1500 Loss 0.6886
+Epoch 1 Batch 1600 Loss 0.7026
+Epoch 1 Batch 1700 Loss 0.6429
+Epoch 1 Batch 1800 Loss 0.6296
+Epoch 1 Batch 1900 Loss 0.6752
+Epoch 1 Batch 2000 Loss 0.8305
+Epoch 1 Batch 2100 Loss 0.7426
+Epoch 1 Batch 2200 Loss 0.7042
+Epoch 1 Batch 2300 Loss 0.6868
+Epoch 1 Loss 0.742798
+Time taken for 1 epoch 654.26 sec
+
+Epoch 2 Batch 0 Loss 0.6317
+Epoch 2 Batch 100 Loss 0.6304
+Epoch 2 Batch 200 Loss 0.5540
+Epoch 2 Batch 300 Loss 0.6375
+Epoch 2 Batch 400 Loss 0.5628
+Epoch 2 Batch 500 Loss 0.5887
+Epoch 2 Batch 600 Loss 0.5611
+Epoch 2 Batch 700 Loss 0.5985
+Epoch 2 Batch 800 Loss 0.5857
+Epoch 2 Batch 900 Loss 0.5345
+Epoch 2 Batch 1000 Loss 0.5151
+Epoch 2 Batch 1100 Loss 0.5590
+Epoch 2 Batch 1200 Loss 0.6031
+Epoch 2 Batch 1300 Loss 0.6792
+Epoch 2 Batch 1400 Loss 0.6051
+Epoch 2 Batch 1500 Loss 0.5876
+Epoch 2 Batch 1600 Loss 0.5758
+Epoch 2 Batch 1700 Loss 0.5858
+Epoch 2 Batch 1800 Loss 0.6029
+Epoch 2 Batch 1900 Loss 0.6173
+Epoch 2 Batch 2000 Loss 0.6707
+Epoch 2 Batch 2100 Loss 0.5889
+Epoch 2 Batch 2200 Loss 0.6488
+Epoch 2 Batch 2300 Loss 0.6516
+Epoch 2 Loss 0.605717
+Time taken for 1 epoch 622.15 sec
+
+Epoch 3 Batch 0 Loss 0.6074
+Epoch 3 Batch 100 Loss 0.5710
+Epoch 3 Batch 200 Loss 0.5707
+Epoch 3 Batch 300 Loss 0.5434
+Epoch 3 Batch 400 Loss 0.5335
+Epoch 3 Batch 500 Loss 0.6200
+Epoch 3 Batch 600 Loss 0.5294
+Epoch 3 Batch 700 Loss 0.5468
+Epoch 3 Batch 800 Loss 0.5957
+Epoch 3 Batch 900 Loss 0.5255
+Epoch 3 Batch 1000 Loss 0.5547
+Epoch 3 Batch 1100 Loss 0.5163
+Epoch 3 Batch 1200 Loss 0.5474
+Epoch 3 Batch 1300 Loss 0.6266
+Epoch 3 Batch 1400 Loss 0.5644
+Epoch 3 Batch 1500 Loss 0.5715
+Epoch 3 Batch 1600 Loss 0.5747
+Epoch 3 Batch 1700 Loss 0.6128
+Epoch 3 Batch 1800 Loss 0.6404
+Epoch 3 Batch 1900 Loss 0.5376
+Epoch 3 Batch 2000 Loss 0.7009
+Epoch 3 Batch 2100 Loss 0.5842
+Epoch 3 Batch 2200 Loss 0.6020
+Epoch 3 Batch 2300 Loss 0.5697
+Epoch 3 Loss 0.570590
+Time taken for 1 epoch 620.38 sec
+
+Epoch 4 Batch 0 Loss 0.5972
+Epoch 4 Batch 100 Loss 0.5496
+Epoch 4 Batch 200 Loss 0.5056
+Epoch 4 Batch 300 Loss 0.5006
+Epoch 4 Batch 400 Loss 0.5715
+Epoch 4 Batch 500 Loss 0.5359
+Epoch 4 Batch 600 Loss 0.5325
+Epoch 4 Batch 700 Loss 0.5114
+Epoch 4 Batch 800 Loss 0.5295
+Epoch 4 Batch 900 Loss 0.4984
+Epoch 4 Batch 1000 Loss 0.4874
+Epoch 4 Batch 1100 Loss 0.4821
+Epoch 4 Batch 1200 Loss 0.5608
+Epoch 4 Batch 1300 Loss 0.5460
+Epoch 4 Batch 1400 Loss 0.5726
+Epoch 4 Batch 1500 Loss 0.4978
+Epoch 4 Batch 1600 Loss 0.6047
+Epoch 4 Batch 1700 Loss 0.5621
+Epoch 4 Batch 1800 Loss 0.5818
+Epoch 4 Batch 1900 Loss 0.5566
+Epoch 4 Batch 2000 Loss 0.5941
+Epoch 4 Batch 2100 Loss 0.6244
+Epoch 4 Batch 2200 Loss 0.6297
+Epoch 4 Batch 2300 Loss 0.5298
+Epoch 4 Loss 0.541795
+Time taken for 1 epoch 620.58 sec
+
+Epoch 5 Batch 0 Loss 0.4952
+Epoch 5 Batch 100 Loss 0.4905
+Epoch 5 Batch 200 Loss 0.5002
+Epoch 5 Batch 300 Loss 0.5385
+Epoch 5 Batch 400 Loss 0.5354
+Epoch 5 Batch 500 Loss 0.4905
+Epoch 5 Batch 600 Loss 0.5408
+Epoch 5 Batch 700 Loss 0.5840
+Epoch 5 Batch 800 Loss 0.5204
+Epoch 5 Batch 900 Loss 0.4979
+Epoch 5 Batch 1000 Loss 0.4848
+Epoch 5 Batch 1100 Loss 0.4511
+Epoch 5 Batch 1200 Loss 0.4750
+Epoch 5 Batch 1300 Loss 0.5222
+Epoch 5 Batch 1400 Loss 0.5037
+Epoch 5 Batch 1500 Loss 0.5116
+Epoch 5 Batch 1600 Loss 0.4920
+Epoch 5 Batch 1700 Loss 0.5136
+Epoch 5 Batch 1800 Loss 0.4860
+Epoch 5 Batch 1900 Loss 0.5396
+Epoch 5 Batch 2000 Loss 0.5885
+Epoch 5 Batch 2100 Loss 0.5440
+Epoch 5 Batch 2200 Loss 0.5263
+Epoch 5 Batch 2300 Loss 0.5176
+Epoch 5 Loss 0.516318
+Time taken for 1 epoch 621.16 sec
+
+Epoch 6 Batch 0 Loss 0.4851
+Epoch 6 Batch 100 Loss 0.4518
+Epoch 6 Batch 200 Loss 0.5149
+Epoch 6 Batch 300 Loss 0.5258
+Epoch 6 Batch 400 Loss 0.4654
+Epoch 6 Batch 500 Loss 0.4518
+Epoch 6 Batch 600 Loss 0.4713
+Epoch 6 Batch 700 Loss 0.4785
+Epoch 6 Batch 800 Loss 0.5004
+Epoch 6 Batch 900 Loss 0.4513
+Epoch 6 Batch 1000 Loss 0.4889
+Epoch 6 Batch 1100 Loss 0.4634
+Epoch 6 Batch 1200 Loss 0.4757
+Epoch 6 Batch 1300 Loss 0.4861
+Epoch 6 Batch 1400 Loss 0.5060
+Epoch 6 Batch 1500 Loss 0.4892
+Epoch 6 Batch 1600 Loss 0.5567
+Epoch 6 Batch 1700 Loss 0.5091
+Epoch 6 Batch 1800 Loss 0.5001
+Epoch 6 Batch 1900 Loss 0.5168
+Epoch 6 Batch 2000 Loss 0.5070
+Epoch 6 Batch 2100 Loss 0.5744
+Epoch 6 Batch 2200 Loss 0.5675
+Epoch 6 Batch 2300 Loss 0.5234
+Epoch 6 Loss 0.498019
+Time taken for 1 epoch 621.13 sec
+
+Epoch 7 Batch 0 Loss 0.4897
+Epoch 7 Batch 100 Loss 0.4888
+Epoch 7 Batch 200 Loss 0.4813
+Epoch 7 Batch 300 Loss 0.4708
+Epoch 7 Batch 400 Loss 0.4707
+Epoch 7 Batch 500 Loss 0.4965
+Epoch 7 Batch 600 Loss 0.4162
+Epoch 7 Batch 700 Loss 0.4990
+Epoch 7 Batch 800 Loss 0.4177
+Epoch 7 Batch 900 Loss 0.4558
+Epoch 7 Batch 1000 Loss 0.4384
+Epoch 7 Batch 1100 Loss 0.4180
+Epoch 7 Batch 1200 Loss 0.4282
+Epoch 7 Batch 1300 Loss 0.4679
+Epoch 7 Batch 1400 Loss 0.5733
+Epoch 7 Batch 1500 Loss 0.4865
+Epoch 7 Batch 1600 Loss 0.5423
+Epoch 7 Batch 1700 Loss 0.4739
+Epoch 7 Batch 1800 Loss 0.5061
+Epoch 7 Batch 1900 Loss 0.5553
+Epoch 7 Batch 2000 Loss 0.5432
+Epoch 7 Batch 2100 Loss 0.5882
+Epoch 7 Batch 2200 Loss 0.5260
+Epoch 7 Batch 2300 Loss 0.4965
+Epoch 7 Loss 0.490019
+Time taken for 1 epoch 621.85 sec
+
+Epoch 8 Batch 0 Loss 0.4986
+Epoch 8 Batch 100 Loss 0.5134
+Epoch 8 Batch 200 Loss 0.5192
+Epoch 8 Batch 300 Loss 0.4774
+Epoch 8 Batch 400 Loss 0.4588
+Epoch 8 Batch 500 Loss 0.4353
+Epoch 8 Batch 600 Loss 0.4687
+Epoch 8 Batch 700 Loss 0.4598
+Epoch 8 Batch 800 Loss 0.5171
+Epoch 8 Batch 900 Loss 0.4950
+Epoch 8 Batch 1000 Loss 0.4908
+Epoch 8 Batch 1100 Loss 0.4375
+Epoch 8 Batch 1200 Loss 0.4503
+Epoch 8 Batch 1300 Loss 0.5445
+Epoch 8 Batch 1400 Loss 0.4898
+Epoch 8 Batch 1500 Loss 0.4777
+Epoch 8 Batch 1600 Loss 0.5220
+Epoch 8 Batch 1700 Loss 0.4722
+Epoch 8 Batch 1800 Loss 0.5399
+Epoch 8 Batch 1900 Loss 0.4667
+Epoch 8 Batch 2000 Loss 0.4967
+Epoch 8 Batch 2100 Loss 0.5271
+Epoch 8 Batch 2200 Loss 0.5106
+Epoch 8 Batch 2300 Loss 0.4378
+Epoch 8 Loss 0.486643
+Time taken for 1 epoch 620.97 sec
+
+Epoch 9 Batch 0 Loss 0.4736
+Epoch 9 Batch 100 Loss 0.4521
+Epoch 9 Batch 200 Loss 0.4855
+Epoch 9 Batch 300 Loss 0.4481
+Epoch 9 Batch 400 Loss 0.4388
+Epoch 9 Batch 500 Loss 0.4416
+Epoch 9 Batch 600 Loss 0.4601
+Epoch 9 Batch 700 Loss 0.4252
+Epoch 9 Batch 800 Loss 0.4197
+Epoch 9 Batch 900 Loss 0.4372
+Epoch 9 Batch 1000 Loss 0.4466
+Epoch 9 Batch 1100 Loss 0.4606
+Epoch 9 Batch 1200 Loss 0.4796
+Epoch 9 Batch 1300 Loss 0.4486
+Epoch 9 Batch 1400 Loss 0.4484
+Epoch 9 Batch 1500 Loss 0.5186
+Epoch 9 Batch 1600 Loss 0.4496
+Epoch 9 Batch 1700 Loss 0.4922
+Epoch 9 Batch 1800 Loss 0.5483
+Epoch 9 Batch 1900 Loss 0.5142
+Epoch 9 Batch 2000 Loss 0.4496
+Epoch 9 Batch 2100 Loss 0.5129
+Epoch 9 Batch 2200 Loss 0.4996
+Epoch 9 Batch 2300 Loss 0.4314
+Epoch 9 Loss 0.475486
+Time taken for 1 epoch 623.85 sec
+
+Epoch 10 Batch 0 Loss 0.4255
+Epoch 10 Batch 100 Loss 0.4310
+Epoch 10 Batch 200 Loss 0.4190
+Epoch 10 Batch 300 Loss 0.4551
+Epoch 10 Batch 400 Loss 0.4374
+Epoch 10 Batch 500 Loss 0.4487
+Epoch 10 Batch 600 Loss 0.4471
+Epoch 10 Batch 700 Loss 0.3877
+Epoch 10 Batch 800 Loss 0.3928
+Epoch 10 Batch 900 Loss 0.4396
+Epoch 10 Batch 1000 Loss 0.4213
+Epoch 10 Batch 1100 Loss 0.4533
+Epoch 10 Batch 1200 Loss 0.4145
+Epoch 10 Batch 1300 Loss 0.4892
+Epoch 10 Batch 1400 Loss 0.4449
+Epoch 10 Batch 1500 Loss 0.5056
+Epoch 10 Batch 1600 Loss 0.4513
+Epoch 10 Batch 1700 Loss 0.4473
+Epoch 10 Batch 1800 Loss 0.4974
+Epoch 10 Batch 1900 Loss 0.4822
+Epoch 10 Batch 2000 Loss 0.4720
+Epoch 10 Batch 2100 Loss 0.5327
+Epoch 10 Batch 2200 Loss 0.5426
+Epoch 10 Batch 2300 Loss 0.4655
+Epoch 10 Loss 0.465645
+Time taken for 1 epoch 622.30 sec
+
+Epoch 11 Batch 0 Loss 0.4780
+Epoch 11 Batch 100 Loss 0.4592
+Epoch 11 Batch 200 Loss 0.4578
+Epoch 11 Batch 300 Loss 0.4851
+Epoch 11 Batch 400 Loss 0.4372
+Epoch 11 Batch 500 Loss 0.4237
+Epoch 11 Batch 600 Loss 0.4225
+Epoch 11 Batch 700 Loss 0.4726
+Epoch 11 Batch 800 Loss 0.4550
+Epoch 11 Batch 900 Loss 0.4622
+Epoch 11 Batch 1000 Loss 0.3468
+Epoch 11 Batch 1100 Loss 0.4088
+Epoch 11 Batch 1200 Loss 0.4506
+Epoch 11 Batch 1300 Loss 0.4306
+Epoch 11 Batch 1400 Loss 0.4682
+Epoch 11 Batch 1500 Loss 0.5094
+Epoch 11 Batch 1600 Loss 0.5273
+Epoch 11 Batch 1700 Loss 0.4860
+Epoch 11 Batch 1800 Loss 0.4345
+Epoch 11 Batch 1900 Loss 0.4606
+Epoch 11 Batch 2000 Loss 0.5866
+Epoch 11 Batch 2100 Loss 0.5051
+Epoch 11 Batch 2200 Loss 0.4923
+Epoch 11 Batch 2300 Loss 0.4353
+Epoch 11 Loss 0.458813
+Time taken for 1 epoch 622.94 sec
+
+Epoch 12 Batch 0 Loss 0.4299
+Epoch 12 Batch 100 Loss 0.4535
+Epoch 12 Batch 200 Loss 0.4483
+Epoch 12 Batch 300 Loss 0.4778
+Epoch 12 Batch 400 Loss 0.3901
+Epoch 12 Batch 500 Loss 0.4026
+Epoch 12 Batch 600 Loss 0.4403
+Epoch 12 Batch 700 Loss 0.4447
+Epoch 12 Batch 800 Loss 0.3973
+Epoch 12 Batch 900 Loss 0.4240
+Epoch 12 Batch 1000 Loss 0.4335
+Epoch 12 Batch 1100 Loss 0.4124
+Epoch 12 Batch 1200 Loss 0.4294
+Epoch 12 Batch 1300 Loss 0.5213
+Epoch 12 Batch 1400 Loss 0.4298
+Epoch 12 Batch 1500 Loss 0.4448
+Epoch 12 Batch 1600 Loss 0.4639
+Epoch 12 Batch 1700 Loss 0.5080
+Epoch 12 Batch 1800 Loss 0.4470
+Epoch 12 Batch 1900 Loss 0.4562
+Epoch 12 Batch 2000 Loss 0.4905
+Epoch 12 Batch 2100 Loss 0.5093
+Epoch 12 Batch 2200 Loss 0.4458
+Epoch 12 Batch 2300 Loss 0.4583
+Epoch 12 Loss 0.459387
+Time taken for 1 epoch 621.12 sec
+
+Epoch 13 Batch 0 Loss 0.4971
+Epoch 13 Batch 100 Loss 0.3944
+Epoch 13 Batch 200 Loss 0.4525
+Epoch 13 Batch 300 Loss 0.4612
+Epoch 13 Batch 400 Loss 0.4535
+Epoch 13 Batch 500 Loss 0.4285
+Epoch 13 Batch 600 Loss 0.4082
+Epoch 13 Batch 700 Loss 0.4191
+Epoch 13 Batch 800 Loss 0.4759
+Epoch 13 Batch 900 Loss 0.3669
+Epoch 13 Batch 1000 Loss 0.4076
+Epoch 13 Batch 1100 Loss 0.4191
+Epoch 13 Batch 1200 Loss 0.4287
+Epoch 13 Batch 1300 Loss 0.4887
+Epoch 13 Batch 1400 Loss 0.4690
+Epoch 13 Batch 1500 Loss 0.4512
+Epoch 13 Batch 1600 Loss 0.4645
+Epoch 13 Batch 1700 Loss 0.4454
+Epoch 13 Batch 1800 Loss 0.4919
+Epoch 13 Batch 1900 Loss 0.4800
+Epoch 13 Batch 2000 Loss 0.4820
+Epoch 13 Batch 2100 Loss 0.5300
+Epoch 13 Batch 2200 Loss 0.4558
+Epoch 13 Batch 2300 Loss 0.4554
+Epoch 13 Loss 0.448426
+Time taken for 1 epoch 620.92 sec
+
+Epoch 14 Batch 0 Loss 0.4626
+Epoch 14 Batch 100 Loss 0.3893
+Epoch 14 Batch 200 Loss 0.4743
+Epoch 14 Batch 300 Loss 0.4633
+Epoch 14 Batch 400 Loss 0.3509
+Epoch 14 Batch 500 Loss 0.4018
+Epoch 14 Batch 600 Loss 0.4041
+Epoch 14 Batch 700 Loss 0.3843
+Epoch 14 Batch 800 Loss 0.4304
+Epoch 14 Batch 900 Loss 0.3746
+Epoch 14 Batch 1000 Loss 0.3795
+Epoch 14 Batch 1100 Loss 0.3954
+Epoch 14 Batch 1200 Loss 0.4146
+Epoch 14 Batch 1300 Loss 0.5052
+Epoch 14 Batch 1400 Loss 0.4662
+Epoch 14 Batch 1500 Loss 0.4304
+Epoch 14 Batch 1600 Loss 0.4287
+Epoch 14 Batch 1700 Loss 0.4904
+Epoch 14 Batch 1800 Loss 0.4377
+Epoch 14 Batch 1900 Loss 0.4334
+Epoch 14 Batch 2000 Loss 0.4409
+Epoch 14 Batch 2100 Loss 0.4631
+Epoch 14 Batch 2200 Loss 0.4260
+Epoch 14 Batch 2300 Loss 0.4401
+Epoch 14 Loss 0.435374
+Time taken for 1 epoch 624.94 sec
+
+Epoch 15 Batch 0 Loss 0.4282
+Epoch 15 Batch 100 Loss 0.4561
+Epoch 15 Batch 200 Loss 0.4210
+Epoch 15 Batch 300 Loss 0.4674
+Epoch 15 Batch 400 Loss 0.4202
+Epoch 15 Batch 500 Loss 0.3935
+Epoch 15 Batch 600 Loss 0.3688
+Epoch 15 Batch 700 Loss 0.3894
+Epoch 15 Batch 800 Loss 0.4222
+Epoch 15 Batch 900 Loss 0.3569
+Epoch 15 Batch 1000 Loss 0.3919
+Epoch 15 Batch 1100 Loss 0.3680
+Epoch 15 Batch 1200 Loss 0.4286
+Epoch 15 Batch 1300 Loss 0.4594
+Epoch 15 Batch 1400 Loss 0.3930
+Epoch 15 Batch 1500 Loss 0.3966
+Epoch 15 Batch 1600 Loss 0.4323
+Epoch 15 Batch 1700 Loss 0.4527
+Epoch 15 Batch 1800 Loss 0.3713
+Epoch 15 Batch 1900 Loss 0.4460
+Epoch 15 Batch 2000 Loss 0.4382
+Epoch 15 Batch 2100 Loss 0.4025
+Epoch 15 Batch 2200 Loss 0.4925
+Epoch 15 Batch 2300 Loss 0.4038
+Epoch 15 Loss 0.420105
+Time taken for 1 epoch 626.84 sec
+
+Epoch 16 Batch 0 Loss 0.3916
+Epoch 16 Batch 100 Loss 0.4258
+Epoch 16 Batch 200 Loss 0.4257
+Epoch 16 Batch 300 Loss 0.4204
+Epoch 16 Batch 400 Loss 0.3936
+Epoch 16 Batch 500 Loss 0.4214
+Epoch 16 Batch 600 Loss 0.3662
+Epoch 16 Batch 700 Loss 0.4213
+Epoch 16 Batch 800 Loss 0.3543
+Epoch 16 Batch 900 Loss 0.4225
+Epoch 16 Batch 1000 Loss 0.3646
+Epoch 16 Batch 1100 Loss 0.3501
+Epoch 16 Batch 1200 Loss 0.3805
+Epoch 16 Batch 1300 Loss 0.4471
+Epoch 16 Batch 1400 Loss 0.4452
+Epoch 16 Batch 1500 Loss 0.4112
+Epoch 16 Batch 1600 Loss 0.4536
+Epoch 16 Batch 1700 Loss 0.4321
+Epoch 16 Batch 1800 Loss 0.4230
+Epoch 16 Batch 1900 Loss 0.4220
+Epoch 16 Batch 2000 Loss 0.4417
+Epoch 16 Batch 2100 Loss 0.4109
+Epoch 16 Batch 2200 Loss 0.4106
+Epoch 16 Batch 2300 Loss 0.3646
+Epoch 16 Loss 0.409014
+Time taken for 1 epoch 624.33 sec
+
+Epoch 17 Batch 0 Loss 0.4293
+Epoch 17 Batch 100 Loss 0.3856
+Epoch 17 Batch 200 Loss 0.4122
+Epoch 17 Batch 300 Loss 0.3789
+Epoch 17 Batch 400 Loss 0.3924
+Epoch 17 Batch 500 Loss 0.4006
+Epoch 17 Batch 600 Loss 0.3969
+Epoch 17 Batch 700 Loss 0.3563
+Epoch 17 Batch 800 Loss 0.3730
+Epoch 17 Batch 900 Loss 0.3398
+Epoch 17 Batch 1000 Loss 0.3371
+Epoch 17 Batch 1100 Loss 0.3687
+Epoch 17 Batch 1200 Loss 0.4047
+Epoch 17 Batch 1300 Loss 0.4260
+Epoch 17 Batch 1400 Loss 0.3963
+Epoch 17 Batch 1500 Loss 0.4519
+Epoch 17 Batch 1600 Loss 0.4116
+Epoch 17 Batch 1700 Loss 0.4298
+Epoch 17 Batch 1800 Loss 0.4232
+Epoch 17 Batch 1900 Loss 0.4420
+Epoch 17 Batch 2000 Loss 0.4221
+Epoch 17 Batch 2100 Loss 0.4884
+Epoch 17 Batch 2200 Loss 0.4152
+Epoch 17 Batch 2300 Loss 0.3867
+Epoch 17 Loss 0.399991
+Time taken for 1 epoch 623.67 sec
+
+Epoch 18 Batch 0 Loss 0.3865
+Epoch 18 Batch 100 Loss 0.4159
+Epoch 18 Batch 200 Loss 0.3547
+Epoch 18 Batch 300 Loss 0.3693
+Epoch 18 Batch 400 Loss 0.3471
+Epoch 18 Batch 500 Loss 0.3588
+Epoch 18 Batch 600 Loss 0.3764
+Epoch 18 Batch 700 Loss 0.3980
+Epoch 18 Batch 800 Loss 0.3746
+Epoch 18 Batch 900 Loss 0.3803
+Epoch 18 Batch 1000 Loss 0.3595
+Epoch 18 Batch 1100 Loss 0.3692
+Epoch 18 Batch 1200 Loss 0.3895
+Epoch 18 Batch 1300 Loss 0.4094
+Epoch 18 Batch 1400 Loss 0.3932
+Epoch 18 Batch 1500 Loss 0.3865
+Epoch 18 Batch 1600 Loss 0.3619
+Epoch 18 Batch 1700 Loss 0.4889
+Epoch 18 Batch 1800 Loss 0.4418
+Epoch 18 Batch 1900 Loss 0.4084
+Epoch 18 Batch 2000 Loss 0.4736
+Epoch 18 Batch 2100 Loss 0.4078
+Epoch 18 Batch 2200 Loss 0.4917
+Epoch 18 Batch 2300 Loss 0.4034
+Epoch 18 Loss 0.399020
+Time taken for 1 epoch 621.86 sec
+
+Epoch 19 Batch 0 Loss 0.4245
+Epoch 19 Batch 100 Loss 0.3773
+Epoch 19 Batch 200 Loss 0.3679
+Epoch 19 Batch 300 Loss 0.4013
+Epoch 19 Batch 400 Loss 0.4041
+Epoch 19 Batch 500 Loss 0.3742
+Epoch 19 Batch 600 Loss 0.3749
+Epoch 19 Batch 700 Loss 0.3961
+Epoch 19 Batch 800 Loss 0.3960
+Epoch 19 Batch 900 Loss 0.4083
+Epoch 19 Batch 1000 Loss 0.3278
+Epoch 19 Batch 1100 Loss 0.3746
+Epoch 19 Batch 1200 Loss 0.3586
+Epoch 19 Batch 1300 Loss 0.3871
+Epoch 19 Batch 1400 Loss 0.3588
+Epoch 19 Batch 1500 Loss 0.4027
+Epoch 19 Batch 1600 Loss 0.4203
+Epoch 19 Batch 1700 Loss 0.4088
+Epoch 19 Batch 1800 Loss 0.3885
+Epoch 19 Batch 1900 Loss 0.3664
+Epoch 19 Batch 2000 Loss 0.4043
+Epoch 19 Batch 2100 Loss 0.3892
+Epoch 19 Batch 2200 Loss 0.4180
+Epoch 19 Batch 2300 Loss 0.4128
+Epoch 19 Loss 0.395691
+Time taken for 1 epoch 626.95 sec
+
+Epoch 20 Batch 0 Loss 0.4400
+Epoch 20 Batch 100 Loss 0.4029
+Epoch 20 Batch 200 Loss 0.3957
+Epoch 20 Batch 300 Loss 0.3902
+Epoch 20 Batch 400 Loss 0.3649
+Epoch 20 Batch 500 Loss 0.4007
+Epoch 20 Batch 600 Loss 0.3972
+Epoch 20 Batch 700 Loss 0.3464
+Epoch 20 Batch 800 Loss 0.3621
+Epoch 20 Batch 900 Loss 0.3397
+Epoch 20 Batch 1000 Loss 0.3377
+Epoch 20 Batch 1100 Loss 0.3690
+Epoch 20 Batch 1200 Loss 0.3481
+Epoch 20 Batch 1300 Loss 0.3793
+Epoch 20 Batch 1400 Loss 0.3842
+Epoch 20 Batch 1500 Loss 0.4030
+Epoch 20 Batch 1600 Loss 0.3935
+Epoch 20 Batch 1700 Loss 0.4204
+Epoch 20 Batch 1800 Loss 0.3925
+Epoch 20 Batch 1900 Loss 0.4133
+Epoch 20 Batch 2000 Loss 0.3812
+Epoch 20 Batch 2100 Loss 0.3890
+Epoch 20 Batch 2200 Loss 0.3819
+Epoch 20 Batch 2300 Loss 0.3835
+Epoch 20 Loss 0.381976
+Time taken for 1 epoch 626.72 sec
+
+Epoch 21 Batch 0 Loss 0.4017
+Epoch 21 Batch 100 Loss 0.3681
+Epoch 21 Batch 200 Loss 0.4112
+Epoch 21 Batch 300 Loss 0.3830
+Epoch 21 Batch 400 Loss 0.3218
+Epoch 21 Batch 500 Loss 0.3320
+Epoch 21 Batch 600 Loss 0.3693
+Epoch 21 Batch 700 Loss 0.3309
+Epoch 21 Batch 800 Loss 0.3463
+Epoch 21 Batch 900 Loss 0.3548
+Epoch 21 Batch 1000 Loss 0.3777
+Epoch 21 Batch 1100 Loss 0.3378
+Epoch 21 Batch 1200 Loss 0.3619
+Epoch 21 Batch 1300 Loss 0.3884
+Epoch 21 Batch 1400 Loss 0.3701
+Epoch 21 Batch 1500 Loss 0.3792
+Epoch 21 Batch 1600 Loss 0.3595
+Epoch 21 Batch 1700 Loss 0.4076
+Epoch 21 Batch 1800 Loss 0.3944
+Epoch 21 Batch 1900 Loss 0.4104
+Epoch 21 Batch 2000 Loss 0.3762
+Epoch 21 Batch 2100 Loss 0.3875
+Epoch 21 Batch 2200 Loss 0.4212
+Epoch 21 Batch 2300 Loss 0.3782
+Epoch 21 Loss 0.375294
+Time taken for 1 epoch 625.91 sec
+
+Epoch 22 Batch 0 Loss 0.3900
+Epoch 22 Batch 100 Loss 0.3987
+Epoch 22 Batch 200 Loss 0.3865
+Epoch 22 Batch 300 Loss 0.3808
+Epoch 22 Batch 400 Loss 0.3593
+Epoch 22 Batch 500 Loss 0.3549
+Epoch 22 Batch 600 Loss 0.3304
+Epoch 22 Batch 700 Loss 0.3121
+Epoch 22 Batch 800 Loss 0.3643
+Epoch 22 Batch 900 Loss 0.3356
+Epoch 22 Batch 1000 Loss 0.3096
+Epoch 22 Batch 1100 Loss 0.3345
+Epoch 22 Batch 1200 Loss 0.3771
+Epoch 22 Batch 1300 Loss 0.3822
+Epoch 22 Batch 1400 Loss 0.3625
+Epoch 22 Batch 1500 Loss 0.3924
+Epoch 22 Batch 1600 Loss 0.3874
+Epoch 22 Batch 1700 Loss 0.4026
+Epoch 22 Batch 1800 Loss 0.3597
+Epoch 22 Batch 1900 Loss 0.3706
+Epoch 22 Batch 2000 Loss 0.4070
+Epoch 22 Batch 2100 Loss 0.3956
+Epoch 22 Batch 2200 Loss 0.4054
+Epoch 22 Batch 2300 Loss 0.3554
+Epoch 22 Loss 0.364041
+Time taken for 1 epoch 626.16 sec
+
+Epoch 23 Batch 0 Loss 0.3833
+Epoch 23 Batch 100 Loss 0.3379
+Epoch 23 Batch 200 Loss 0.3617
+Epoch 23 Batch 300 Loss 0.3536
+Epoch 23 Batch 400 Loss 0.3439
+Epoch 23 Batch 500 Loss 0.3599
+Epoch 23 Batch 600 Loss 0.3318
+Epoch 23 Batch 700 Loss 0.3635
+Epoch 23 Batch 800 Loss 0.3502
+Epoch 23 Batch 900 Loss 0.3131
+Epoch 23 Batch 1000 Loss 0.3262
+Epoch 23 Batch 1100 Loss 0.3059
+Epoch 23 Batch 1200 Loss 0.3280
+Epoch 23 Batch 1300 Loss 0.3662
+Epoch 23 Batch 1400 Loss 0.3339
+Epoch 23 Batch 1500 Loss 0.3687
+Epoch 23 Batch 1600 Loss 0.3355
+Epoch 23 Batch 1700 Loss 0.3505
+Epoch 23 Batch 1800 Loss 0.3496
+Epoch 23 Batch 1900 Loss 0.3702
+Epoch 23 Batch 2000 Loss 0.3953
+Epoch 23 Batch 2100 Loss 0.3556
+Epoch 23 Batch 2200 Loss 0.3999
+Epoch 23 Batch 2300 Loss 0.3508
+Epoch 23 Loss 0.355916
+Time taken for 1 epoch 624.58 sec
+
+Epoch 24 Batch 0 Loss 0.3460
+Epoch 24 Batch 100 Loss 0.3566
+Epoch 24 Batch 200 Loss 0.3733
+Epoch 24 Batch 300 Loss 0.3443
+Epoch 24 Batch 400 Loss 0.3480
+Epoch 24 Batch 500 Loss 0.3147
+Epoch 24 Batch 600 Loss 0.3324
+Epoch 24 Batch 700 Loss 0.3095
+Epoch 24 Batch 800 Loss 0.3159
+Epoch 24 Batch 900 Loss 0.3193
+Epoch 24 Batch 1000 Loss 0.3281
+Epoch 24 Batch 1100 Loss 0.3563
+Epoch 24 Batch 1200 Loss 0.3514
+Epoch 24 Batch 1300 Loss 0.3520
+Epoch 24 Batch 1400 Loss 0.3555
+Epoch 24 Batch 1500 Loss 0.3600
+Epoch 24 Batch 1600 Loss 0.3750
+Epoch 24 Batch 1700 Loss 0.3791
+Epoch 24 Batch 1800 Loss 0.3843
+Epoch 24 Batch 1900 Loss 0.3700
+Epoch 24 Batch 2000 Loss 0.3882
+Epoch 24 Batch 2100 Loss 0.3821
+Epoch 24 Batch 2200 Loss 0.3293
+Epoch 24 Batch 2300 Loss 0.3230
+Epoch 24 Loss 0.351161
+Time taken for 1 epoch 625.49 sec
+
+Epoch 25 Batch 0 Loss 0.3553
+Epoch 25 Batch 100 Loss 0.3299
+Epoch 25 Batch 200 Loss 0.3442
+Epoch 25 Batch 300 Loss 0.3551
+Epoch 25 Batch 400 Loss 0.3149
+Epoch 25 Batch 500 Loss 0.3379
+Epoch 25 Batch 600 Loss 0.3423
+Epoch 25 Batch 700 Loss 0.3038
+Epoch 25 Batch 800 Loss 0.2880
+Epoch 25 Batch 900 Loss 0.2844
+Epoch 25 Batch 1000 Loss 0.3105
+Epoch 25 Batch 1100 Loss 0.3105
+Epoch 25 Batch 1200 Loss 0.3116
+Epoch 25 Batch 1300 Loss 0.3215
+Epoch 25 Batch 1400 Loss 0.3663
+Epoch 25 Batch 1500 Loss 0.3458
+Epoch 25 Batch 1600 Loss 0.3626
+Epoch 25 Batch 1700 Loss 0.3293
+Epoch 25 Batch 1800 Loss 0.3719
+Epoch 25 Batch 1900 Loss 0.3840
+Epoch 25 Batch 2000 Loss 0.3541
+Epoch 25 Batch 2100 Loss 0.3871
+Epoch 25 Batch 2200 Loss 0.3854
+Epoch 25 Batch 2300 Loss 0.3278
+Epoch 25 Loss 0.346654
+Time taken for 1 epoch 625.59 sec
+
+Epoch 26 Batch 0 Loss 0.3786
+Epoch 26 Batch 100 Loss 0.3503
+Epoch 26 Batch 200 Loss 0.3558
+Epoch 26 Batch 300 Loss 0.3288
+Epoch 26 Batch 400 Loss 0.3200
+Epoch 26 Batch 500 Loss 0.3338
+Epoch 26 Batch 600 Loss 0.3384
+Epoch 26 Batch 700 Loss 0.3338
+Epoch 26 Batch 800 Loss 0.3254
+Epoch 26 Batch 900 Loss 0.3385
+Epoch 26 Batch 1000 Loss 0.3303
+Epoch 26 Batch 1100 Loss 0.3144
+Epoch 26 Batch 1200 Loss 0.3465
+Epoch 26 Batch 1300 Loss 0.3554
+Epoch 26 Batch 1400 Loss 0.3504
+Epoch 26 Batch 1500 Loss 0.3704
+Epoch 26 Batch 1600 Loss 0.3309
+Epoch 26 Batch 1700 Loss 0.3185
+Epoch 26 Batch 1800 Loss 0.3671
+Epoch 26 Batch 1900 Loss 0.3813
+Epoch 26 Batch 2000 Loss 0.3564
+Epoch 26 Batch 2100 Loss 0.3841
+Epoch 26 Batch 2200 Loss 0.4045
+Epoch 26 Batch 2300 Loss 0.3459
+Epoch 26 Loss 0.347378
+Time taken for 1 epoch 621.74 sec
+
+Epoch 27 Batch 0 Loss 0.3810
+Epoch 27 Batch 100 Loss 0.3503
+Epoch 27 Batch 200 Loss 0.3562
+Epoch 27 Batch 300 Loss 0.3719
+Epoch 27 Batch 400 Loss 0.3468
+Epoch 27 Batch 500 Loss 0.3024
+Epoch 27 Batch 600 Loss 0.3444
+Epoch 27 Batch 700 Loss 0.3547
+Epoch 27 Batch 800 Loss 0.3479
+Epoch 27 Batch 900 Loss 0.3132
+Epoch 27 Batch 1000 Loss 0.3019
+Epoch 27 Batch 1100 Loss 0.2889
+Epoch 27 Batch 1200 Loss 0.3259
+Epoch 27 Batch 1300 Loss 0.3730
+Epoch 27 Batch 1400 Loss 0.3654
+Epoch 27 Batch 1500 Loss 0.3578
+Epoch 27 Batch 1600 Loss 0.3661
+Epoch 27 Batch 1700 Loss 0.3521
+Epoch 27 Batch 1800 Loss 0.3257
+Epoch 27 Batch 1900 Loss 0.3518
+Epoch 27 Batch 2000 Loss 0.3382
+Epoch 27 Batch 2100 Loss 0.3778
+Epoch 27 Batch 2200 Loss 0.3755
+Epoch 27 Batch 2300 Loss 0.3767
+Epoch 27 Loss 0.348114
+Time taken for 1 epoch 622.79 sec
+
+Epoch 28 Batch 0 Loss 0.4099
+Epoch 28 Batch 100 Loss 0.3045
+Epoch 28 Batch 200 Loss 0.3451
+Epoch 28 Batch 300 Loss 0.3031
+Epoch 28 Batch 400 Loss 0.3334
+Epoch 28 Batch 500 Loss 0.3549
+Epoch 28 Batch 600 Loss 0.3354
+Epoch 28 Batch 700 Loss 0.3430
+Epoch 28 Batch 800 Loss 0.3279
+Epoch 28 Batch 900 Loss 0.3188
+Epoch 28 Batch 1000 Loss 0.3184
+Epoch 28 Batch 1100 Loss 0.3059
+Epoch 28 Batch 1200 Loss 0.3158
+Epoch 28 Batch 1300 Loss 0.3296
+Epoch 28 Batch 1400 Loss 0.3372
+Epoch 28 Batch 1500 Loss 0.3755
+Epoch 28 Batch 1600 Loss 0.3370
+Epoch 28 Batch 1700 Loss 0.3513
+Epoch 28 Batch 1800 Loss 0.3910
+Epoch 28 Batch 1900 Loss 0.3932
+Epoch 28 Batch 2000 Loss 0.3847
+Epoch 28 Batch 2100 Loss 0.3900
+Epoch 28 Batch 2200 Loss 0.3600
+Epoch 28 Batch 2300 Loss 0.3498
+Epoch 28 Loss 0.342496
+Time taken for 1 epoch 621.98 sec
+
+Epoch 29 Batch 0 Loss 0.3672
+Epoch 29 Batch 100 Loss 0.3170
+Epoch 29 Batch 200 Loss 0.3103
+Epoch 29 Batch 300 Loss 0.3225
+Epoch 29 Batch 400 Loss 0.3494
+Epoch 29 Batch 500 Loss 0.3420
+Epoch 29 Batch 600 Loss 0.2935
+Epoch 29 Batch 700 Loss 0.3052
+Epoch 29 Batch 800 Loss 0.2811
+Epoch 29 Batch 900 Loss 0.3022
+Epoch 29 Batch 1000 Loss 0.3146
+Epoch 29 Batch 1100 Loss 0.2727
+Epoch 29 Batch 1200 Loss 0.3058
+Epoch 29 Batch 1300 Loss 0.3132
+Epoch 29 Batch 1400 Loss 0.3409
+Epoch 29 Batch 1500 Loss 0.3117
+Epoch 29 Batch 1600 Loss 0.3495
+Epoch 29 Batch 1700 Loss 0.3539
+Epoch 29 Batch 1800 Loss 0.3462
+Epoch 29 Batch 1900 Loss 0.3471
+Epoch 29 Batch 2000 Loss 0.3678
+Epoch 29 Batch 2100 Loss 0.3384
+Epoch 29 Batch 2200 Loss 0.3197
+Epoch 29 Batch 2300 Loss 0.3013
+Epoch 29 Loss 0.326389
+Time taken for 1 epoch 622.24 sec
+
+Epoch 30 Batch 0 Loss 0.3803
+Epoch 30 Batch 100 Loss 0.3207
+Epoch 30 Batch 200 Loss 0.3151
+Epoch 30 Batch 300 Loss 0.2989
+Epoch 30 Batch 400 Loss 0.3119
+Epoch 30 Batch 500 Loss 0.2957
+Epoch 30 Batch 600 Loss 0.2983
+Epoch 30 Batch 700 Loss 0.3149
+Epoch 30 Batch 800 Loss 0.3274
+Epoch 30 Batch 900 Loss 0.3087
+Epoch 30 Batch 1000 Loss 0.2771
+Epoch 30 Batch 1100 Loss 0.2812
+Epoch 30 Batch 1200 Loss 0.3322
+Epoch 30 Batch 1300 Loss 0.3374
+Epoch 30 Batch 1400 Loss 0.3329
+Epoch 30 Batch 1500 Loss 0.3337
+Epoch 30 Batch 1600 Loss 0.3432
+Epoch 30 Batch 1700 Loss 0.3545
+Epoch 30 Batch 1800 Loss 0.3343
+Epoch 30 Batch 1900 Loss 0.3280
+Epoch 30 Batch 2000 Loss 0.3276
+Epoch 30 Batch 2100 Loss 0.3497
+Epoch 30 Batch 2200 Loss 0.3310
+Epoch 30 Batch 2300 Loss 0.3579
+Epoch 30 Loss 0.325504
+Time taken for 1 epoch 622.66 sec
+
+Epoch 31 Batch 0 Loss 0.3356
+Epoch 31 Batch 100 Loss 0.3159
+Epoch 31 Batch 200 Loss 0.3004
+Epoch 31 Batch 300 Loss 0.3233
+Epoch 31 Batch 400 Loss 0.2912
+Epoch 31 Batch 500 Loss 0.3066
+Epoch 31 Batch 600 Loss 0.2864
+Epoch 31 Batch 700 Loss 0.2913
+Epoch 31 Batch 800 Loss 0.3242
+Epoch 31 Batch 900 Loss 0.2863
+Epoch 31 Batch 1000 Loss 0.2716
+Epoch 31 Batch 1100 Loss 0.2846
+Epoch 31 Batch 1200 Loss 0.3097
+Epoch 31 Batch 1300 Loss 0.3188
+Epoch 31 Batch 1400 Loss 0.3008
+Epoch 31 Batch 1500 Loss 0.3378
+Epoch 31 Batch 1600 Loss 0.3579
+Epoch 31 Batch 1700 Loss 0.3074
+Epoch 31 Batch 1800 Loss 0.3237
+Epoch 31 Batch 1900 Loss 0.3368
+Epoch 31 Batch 2000 Loss 0.3773
+Epoch 31 Batch 2100 Loss 0.3371
+Epoch 31 Batch 2200 Loss 0.3738
+Epoch 31 Batch 2300 Loss 0.3252
+Epoch 31 Loss 0.318100
+Time taken for 1 epoch 622.17 sec
+
+Epoch 32 Batch 0 Loss 0.3811
+Epoch 32 Batch 100 Loss 0.3129
+Epoch 32 Batch 200 Loss 0.3106
+Epoch 32 Batch 300 Loss 0.3051
+Epoch 32 Batch 400 Loss 0.2967
+Epoch 32 Batch 500 Loss 0.3061
+Epoch 32 Batch 600 Loss 0.3214
+Epoch 32 Batch 700 Loss 0.3095
+Epoch 32 Batch 800 Loss 0.2636
+Epoch 32 Batch 900 Loss 0.2594
+Epoch 32 Batch 1000 Loss 0.2839
+Epoch 32 Batch 1100 Loss 0.2680
+Epoch 32 Batch 1200 Loss 0.2857
+Epoch 32 Batch 1300 Loss 0.3125
+Epoch 32 Batch 1400 Loss 0.3141
+Epoch 32 Batch 1500 Loss 0.3146
+Epoch 32 Batch 1600 Loss 0.3351
+Epoch 32 Batch 1700 Loss 0.3110
+Epoch 32 Batch 1800 Loss 0.3359
+Epoch 32 Batch 1900 Loss 0.2943
+Epoch 32 Batch 2000 Loss 0.3325
+Epoch 32 Batch 2100 Loss 0.3567
+Epoch 32 Batch 2200 Loss 0.3351
+Epoch 32 Batch 2300 Loss 0.3219
+Epoch 32 Loss 0.310304
+Time taken for 1 epoch 622.13 sec
+
+Epoch 33 Batch 0 Loss 0.3540
+Epoch 33 Batch 100 Loss 0.3213
+Epoch 33 Batch 200 Loss 0.3193
+Epoch 33 Batch 300 Loss 0.2863
+Epoch 33 Batch 400 Loss 0.2743
+Epoch 33 Batch 500 Loss 0.2805
+Epoch 33 Batch 600 Loss 0.3061
+Epoch 33 Batch 700 Loss 0.3019
+Epoch 33 Batch 800 Loss 0.2643
+Epoch 33 Batch 900 Loss 0.2789
+Epoch 33 Batch 1000 Loss 0.2804
+Epoch 33 Batch 1100 Loss 0.2651
+Epoch 33 Batch 1200 Loss 0.2903
+Epoch 33 Batch 1300 Loss 0.3242
+Epoch 33 Batch 1400 Loss 0.3251
+Epoch 33 Batch 1500 Loss 0.3066
+Epoch 33 Batch 1600 Loss 0.3268
+Epoch 33 Batch 1700 Loss 0.2854
+Epoch 33 Batch 1800 Loss 0.3288
+Epoch 33 Batch 1900 Loss 0.3103
+Epoch 33 Batch 2000 Loss 0.2952
+Epoch 33 Batch 2100 Loss 0.3086
+Epoch 33 Batch 2200 Loss 0.3355
+Epoch 33 Batch 2300 Loss 0.3132
+Epoch 33 Loss 0.304666
+Time taken for 1 epoch 623.53 sec
+
+Epoch 34 Batch 0 Loss 0.3440
+Epoch 34 Batch 100 Loss 0.3191
+Epoch 34 Batch 200 Loss 0.2987
+Epoch 34 Batch 300 Loss 0.3097
+Epoch 34 Batch 400 Loss 0.2865
+Epoch 34 Batch 500 Loss 0.2842
+Epoch 34 Batch 600 Loss 0.2994
+Epoch 34 Batch 700 Loss 0.2814
+Epoch 34 Batch 800 Loss 0.2800
+Epoch 34 Batch 900 Loss 0.2772
+Epoch 34 Batch 1000 Loss 0.2672
+Epoch 34 Batch 1100 Loss 0.2619
+Epoch 34 Batch 1200 Loss 0.3106
+Epoch 34 Batch 1300 Loss 0.2836
+Epoch 34 Batch 1400 Loss 0.2973
+Epoch 34 Batch 1500 Loss 0.2925
+Epoch 34 Batch 1600 Loss 0.3260
+Epoch 34 Batch 1700 Loss 0.3393
+Epoch 34 Batch 1800 Loss 0.3036
+Epoch 34 Batch 1900 Loss 0.3363
+Epoch 34 Batch 2000 Loss 0.3448
+Epoch 34 Batch 2100 Loss 0.3280
+Epoch 34 Batch 2200 Loss 0.3117
+Epoch 34 Batch 2300 Loss 0.2956
+Epoch 34 Loss 0.300511
+Time taken for 1 epoch 621.72 sec
+
+Epoch 35 Batch 0 Loss 0.3289
+Epoch 35 Batch 100 Loss 0.2752
+Epoch 35 Batch 200 Loss 0.2624
+Epoch 35 Batch 300 Loss 0.2862
+Epoch 35 Batch 400 Loss 0.2944
+Epoch 35 Batch 500 Loss 0.3002
+Epoch 35 Batch 600 Loss 0.2917
+Epoch 35 Batch 700 Loss 0.3111
+Epoch 35 Batch 800 Loss 0.2813
+Epoch 35 Batch 900 Loss 0.2826
+Epoch 35 Batch 1000 Loss 0.2774
+Epoch 35 Batch 1100 Loss 0.2981
+Epoch 35 Batch 1200 Loss 0.2639
+Epoch 35 Batch 1300 Loss 0.3266
+Epoch 35 Batch 1400 Loss 0.2849
+Epoch 35 Batch 1500 Loss 0.3292
+Epoch 35 Batch 1600 Loss 0.3072
+Epoch 35 Batch 1700 Loss 0.3196
+Epoch 35 Batch 1800 Loss 0.2935
+Epoch 35 Batch 1900 Loss 0.3339
+Epoch 35 Batch 2000 Loss 0.3289
+Epoch 35 Batch 2100 Loss 0.3144
+Epoch 35 Batch 2200 Loss 0.2898
+Epoch 35 Batch 2300 Loss 0.2919
+Epoch 35 Loss 0.299407
+Time taken for 1 epoch 621.61 sec
+
+Epoch 36 Batch 0 Loss 0.3412
+Epoch 36 Batch 100 Loss 0.2954
+Epoch 36 Batch 200 Loss 0.3120
+Epoch 36 Batch 300 Loss 0.2859
+Epoch 36 Batch 400 Loss 0.2803
+Epoch 36 Batch 500 Loss 0.2853
+Epoch 36 Batch 600 Loss 0.3256
+Epoch 36 Batch 700 Loss 0.2642
+Epoch 36 Batch 800 Loss 0.2677
+Epoch 36 Batch 900 Loss 0.2802
+Epoch 36 Batch 1000 Loss 0.2549
+Epoch 36 Batch 1100 Loss 0.2671
+Epoch 36 Batch 1200 Loss 0.2623
+Epoch 36 Batch 1300 Loss 0.2822
+Epoch 36 Batch 1400 Loss 0.2764
+Epoch 36 Batch 1500 Loss 0.2943
+Epoch 36 Batch 1600 Loss 0.3055
+Epoch 36 Batch 1700 Loss 0.3021
+Epoch 36 Batch 1800 Loss 0.3134
+Epoch 36 Batch 1900 Loss 0.3226
+Epoch 36 Batch 2000 Loss 0.3219
+Epoch 36 Batch 2100 Loss 0.3299
+Epoch 36 Batch 2200 Loss 0.3457
+Epoch 36 Batch 2300 Loss 0.3077
+Epoch 36 Loss 0.291273
+Time taken for 1 epoch 621.30 sec
+
+Epoch 37 Batch 0 Loss 0.3253
+Epoch 37 Batch 100 Loss 0.3081
+Epoch 37 Batch 200 Loss 0.2897
+Epoch 37 Batch 300 Loss 0.2672
+Epoch 37 Batch 400 Loss 0.2750
+Epoch 37 Batch 500 Loss 0.2874
+Epoch 37 Batch 600 Loss 0.2742
+Epoch 37 Batch 700 Loss 0.2954
+Epoch 37 Batch 800 Loss 0.2608
+Epoch 37 Batch 900 Loss 0.2688
+Epoch 37 Batch 1000 Loss 0.2989
+Epoch 37 Batch 1100 Loss 0.2656
+Epoch 37 Batch 1200 Loss 0.2839
+Epoch 37 Batch 1300 Loss 0.2706
+Epoch 37 Batch 1400 Loss 0.2970
+Epoch 37 Batch 1500 Loss 0.3306
+Epoch 37 Batch 1600 Loss 0.2843
+Epoch 37 Batch 1700 Loss 0.3216
+Epoch 37 Batch 1800 Loss 0.2914
+Epoch 37 Batch 1900 Loss 0.3309
+Epoch 37 Batch 2000 Loss 0.3169
+Epoch 37 Batch 2100 Loss 0.2942
+Epoch 37 Batch 2200 Loss 0.2947
+Epoch 37 Batch 2300 Loss 0.2897
+Epoch 37 Loss 0.288120
+Time taken for 1 epoch 621.46 sec
+
+Epoch 38 Batch 0 Loss 0.2940
+Epoch 38 Batch 100 Loss 0.2948
+Epoch 38 Batch 200 Loss 0.3205
+Epoch 38 Batch 300 Loss 0.2969
+Epoch 38 Batch 400 Loss 0.2901
+Epoch 38 Batch 500 Loss 0.2715
+Epoch 38 Batch 600 Loss 0.2754
+Epoch 38 Batch 700 Loss 0.2533
+Epoch 38 Batch 800 Loss 0.2505
+Epoch 38 Batch 900 Loss 0.2480
+Epoch 38 Batch 1000 Loss 0.2540
+Epoch 38 Batch 1100 Loss 0.2378
+Epoch 38 Batch 1200 Loss 0.2567
+Epoch 38 Batch 1300 Loss 0.2630
+Epoch 38 Batch 1400 Loss 0.2853
+Epoch 38 Batch 1500 Loss 0.2960
+Epoch 38 Batch 1600 Loss 0.3042
+Epoch 38 Batch 1700 Loss 0.2914
+Epoch 38 Batch 1800 Loss 0.2644
+Epoch 38 Batch 1900 Loss 0.3200
+Epoch 38 Batch 2000 Loss 0.3231
+Epoch 38 Batch 2100 Loss 0.3199
+Epoch 38 Batch 2200 Loss 0.3029
+Epoch 38 Batch 2300 Loss 0.2834
+Epoch 38 Loss 0.282885
+Time taken for 1 epoch 621.30 sec
+
+Epoch 39 Batch 0 Loss 0.3077
+Epoch 39 Batch 100 Loss 0.2573
+Epoch 39 Batch 200 Loss 0.2880
+Epoch 39 Batch 300 Loss 0.2803
+Epoch 39 Batch 400 Loss 0.2683
+Epoch 39 Batch 500 Loss 0.2549
+Epoch 39 Batch 600 Loss 0.2946
+Epoch 39 Batch 700 Loss 0.2679
+Epoch 39 Batch 800 Loss 0.2576
+Epoch 39 Batch 900 Loss 0.2511
+Epoch 39 Batch 1000 Loss 0.2560
+Epoch 39 Batch 1100 Loss 0.2621
+Epoch 39 Batch 1200 Loss 0.2814
+Epoch 39 Batch 1300 Loss 0.2726
+Epoch 39 Batch 1400 Loss 0.3458
+Epoch 39 Batch 1500 Loss 0.3369
+Epoch 39 Batch 1600 Loss 0.2918
+Epoch 39 Batch 1700 Loss 0.3463
+Epoch 39 Batch 1800 Loss 0.3114
+Epoch 39 Batch 1900 Loss 0.2850
+Epoch 39 Batch 2000 Loss 0.3224
+Epoch 39 Batch 2100 Loss 0.3000
+Epoch 39 Batch 2200 Loss 0.3178
+Epoch 39 Batch 2300 Loss 0.2680
+Epoch 39 Loss 0.284862
+Time taken for 1 epoch 621.70 sec
+
+Epoch 40 Batch 0 Loss 0.3398
+Epoch 40 Batch 100 Loss 0.2737
+Epoch 40 Batch 200 Loss 0.2786
+Epoch 40 Batch 300 Loss 0.2579
+Epoch 40 Batch 400 Loss 0.2427
+Epoch 40 Batch 500 Loss 0.2844
+Epoch 40 Batch 600 Loss 0.2717
+Epoch 40 Batch 700 Loss 0.2483
+Epoch 40 Batch 800 Loss 0.2692
+Epoch 40 Batch 900 Loss 0.2545
+Epoch 40 Batch 1000 Loss 0.2503
+Epoch 40 Batch 1100 Loss 0.2544
+Epoch 40 Batch 1200 Loss 0.2779
+Epoch 40 Batch 1300 Loss 0.2960
+Epoch 40 Batch 1400 Loss 0.2861
+Epoch 40 Batch 1500 Loss 0.2863
+Epoch 40 Batch 1600 Loss 0.2932
+Epoch 40 Batch 1700 Loss 0.2840
+Epoch 40 Batch 1800 Loss 0.3102
+Epoch 40 Batch 1900 Loss 0.3194
+Epoch 40 Batch 2000 Loss 0.2827
+Epoch 40 Batch 2100 Loss 0.2891
+Epoch 40 Batch 2200 Loss 0.3333
+Epoch 40 Batch 2300 Loss 0.2609
+Epoch 40 Loss 0.278594
+Time taken for 1 epoch 622.08 sec
