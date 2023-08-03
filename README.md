@@ -1,4 +1,4 @@
-# ST456 course project-Group 4
+# Image Captioning Coursework Group Project
 
 ## Project description
 
